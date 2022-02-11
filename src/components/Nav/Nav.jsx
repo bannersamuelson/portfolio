@@ -5,6 +5,7 @@ import icon from '../../images/icon.png'
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+  const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-gray-300 transition ease transform duration-300`;
 
   return (
     <div>
@@ -21,40 +22,11 @@ function Nav() {
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <a
-                    href="#"
-                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Home
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Team
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Projects
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Calendar
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Reports
-                  </a>
+                  <a href="#" className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                  <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
+                  <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
+                  <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
+                  <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
                 </div>
               </div>
             </div>
@@ -62,11 +34,32 @@ function Nav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-                aria-controls="mobile-menu"
+                className="flex flex-col h-12 w-12 border-2 border-transparent rounded justify-center items-center group hover:border-white hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-controls="mobile-menu"
                 aria-expanded="false"
               >
-                <span className="sr-only">Open main menu</span>
+                <div
+                  className={`${genericHamburgerLine} ${isOpen
+                    ? "rotate-45 translate-y-3 opacity-50 group-hover:opacity-100"
+                    : "opacity-50 group-hover:opacity-100"
+                    }`}
+                />
+                <div
+                  className={`${genericHamburgerLine} ${isOpen ? "opacity-0" : "opacity-50 group-hover:opacity-100"
+                    }`}
+                />
+                <div
+                  className={`${genericHamburgerLine} ${isOpen
+                    ? "-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100"
+                    : "opacity-50 group-hover:opacity-100"
+                    }`}
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        {/* <span className="sr-only">Open main menu</span>
                 {!isOpen ? (
                   <svg
                     className="block h-6 w-6"
@@ -103,7 +96,7 @@ function Nav() {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <Transition
           show={isOpen}
