@@ -22,11 +22,11 @@ function Nav() {
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <a href="#" className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                  <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
-                  <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
-                  <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
-                  <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
+                  <a href="#" className=" hover:bg-gray-700 text-purple-400 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                  <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                  <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+
+
                 </div>
               </div>
             </div>
@@ -34,12 +34,12 @@ function Nav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="flex flex-col h-12 w-12 border-2 border-transparent rounded justify-center items-center group hover:border-white hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-controls="mobile-menu"
+                className="flex flex-col h-12 w-12 border-2 border-transparent rounded justify-center items-center group border-opacity-100 hover:border-white hover:border-opacity-100 hover:text-white" aria-controls="mobile-menu"
                 aria-expanded="false"
               >
                 <div
                   className={`${genericHamburgerLine} ${isOpen
-                    ? "rotate-45 translate-y-3 opacity-50 group-hover:opacity-100"
+                    ? "rotate-45 translate-y-3 opacity-75 group-hover:opacity-100"
                     : "opacity-50 group-hover:opacity-100"
                     }`}
                 />
@@ -49,7 +49,7 @@ function Nav() {
                 />
                 <div
                   className={`${genericHamburgerLine} ${isOpen
-                    ? "-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100"
+                    ? "-rotate-45 -translate-y-3 opacity-75 group-hover:opacity-100"
                     : "opacity-50 group-hover:opacity-100"
                     }`}
                 />
@@ -57,46 +57,6 @@ function Nav() {
             </div>
           </div>
         </div>
-
-
-        {/* <span className="sr-only">Open main menu</span>
-                {!isOpen ? (
-                  <svg
-                    className="block h-6 w-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M4 6h16M4 12h16M4 18h16"
-                    />
-                  </svg>
-                ) : (
-                  <svg
-                    className="block h-6 w-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
-                )}
-              </button>
-            </div>
-          </div>
-        </div> */}
 
         <Transition
           show={isOpen}
@@ -149,21 +109,6 @@ function Nav() {
           )}
         </Transition>
       </nav>
-
-      <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-        </div>
-      </header>
-      <main>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-          {/* <!-- Replace with your content --> */}
-          <div className="px-4 py-6 sm:px-0">
-            <div className="border-4 border-dashed border-gray-200 rounded-lg h-96"></div>
-          </div>
-          {/* <!-- /End replace --> */}
-        </div>
-      </main>
     </div>
   );
 }
