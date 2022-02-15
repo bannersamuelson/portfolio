@@ -5,6 +5,7 @@
   -moz-animation: fadeIn linear 4s;
   -o-animation: fadeIn linear 4s;
   -ms-animation: fadeIn linear 4s;
+
 }
 @keyframes fadeIn {
   0% {opacity:0;}
