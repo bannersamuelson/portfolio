@@ -15,7 +15,7 @@ function App() {
       <button onClick={() => scrollToRef.current.scrollIntoView()}>
         Scroll
       </button>
-      <div ref={scrollToRef}>
+      <div className="bg-waves" ref={scrollToRef}>
         <Home />
       </div>
 

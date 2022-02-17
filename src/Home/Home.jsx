@@ -9,9 +9,9 @@ export default function Home() {
       <Nav />
       <div className="w-full h-screen">
         <div className="flex justify-center text-center pt-72 pb-4">
-          <h3 className="text-6xl md:text-8xl animate-charcter text-slate-50"> BANNER</h3>
+          <h3 id="name" className="text-6xl md:text-8xl animate-charcter text-slate-50"> BANNER</h3>
         </div>
-        <div id="soft" className="fade-in-text text-purple-600 text-4xl">Software Developer
+        <div id="soft" className="flex justify-center fade-in-text text-purple-600 text-4xl">Software Developer
         </div >
       </div >
     </div>
