@@ -7,6 +7,7 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-gray-300 transition ease transform duration-300`;
 
+
   return (
     <div>
       <nav className="sticky">
@@ -36,7 +37,7 @@ function Nav() {
           <div className="px-4 hidden md:block align-center">
             <div className=" align-center items-center ml-10 text-lg text-slate-50 space-x-4 flex">
               <a href="#" className=" hover:bg-gray-700 m-1 px-2 py-1 rounded-md font-medium">Home</a>
-              <a href="#" className=" hover:bg-gray-700 hover:text-white m-1 px-2 py-1 rounded-md font-medium">Projects</a>
+              <Link to="/hash-scroll#hash-section-2" className=" hover:bg-gray-700 hover:text-white m-1 px-2 py-1 rounded-md font-medium">Projects</Link>
               <a href="#" className=" hover:bg-gray-700 hover:text-white m-1 px-2 py-1 rounded-md font-medium">Contact</a>
             </div>
           </div>
