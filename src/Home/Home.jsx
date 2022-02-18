@@ -5,7 +5,7 @@ import Nav from '../components/Nav/Nav'
 export default function Home() {
 
   return (
-    <div className="bg-waves bg-cover">
+    <div id="home" className="bg-waves bg-cover">
       <Nav />
       <div className="w-full h-screen">
         <div className="flex justify-center text-center pt-72 pb-4">
