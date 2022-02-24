@@ -4,6 +4,8 @@ import { useRef } from 'react';
 import Projects from './components/Projects/Projects';
 import React from "react";
 import { Link } from "react-router-dom";
+import Contact from './components/Contact/Contact';
+import Buttons from './components/Buttons/Buttons'
 
 
 function App() {
@@ -12,15 +14,12 @@ function App() {
 
   return (
     <>
-      <button onClick={() => scrollToRef.current.scrollIntoView()}>
-        Scroll
-      </button>
       <div className="bg-waves" ref={scrollToRef}>
         <Home />
       </div>
-
+      <Buttons />
       <Projects />
-
+      <Contact />
     </>
   );
 }

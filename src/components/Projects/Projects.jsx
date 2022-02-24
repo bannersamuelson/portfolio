@@ -3,8 +3,8 @@ import { useRef } from 'react'
 export default function Projects() {
   const scollToRef = useRef();
   return (
-    <div id="projects">
-      <div >You scrolled to me</div>
+    <div id="projects" className="bg-slate-700">
+      <div className="text-4xl">Projects</div>
       <div>Projects</div>
       <div>Projects</div>
       <div>Projects</div>

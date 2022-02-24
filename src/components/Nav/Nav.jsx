@@ -36,7 +36,7 @@ function Nav() {
           </div>
 
           <div className="px-4 pt-1 hidden md:block align-center">
-            <div className=" align-center items-center ml-10 text-lg text-slate-50 space-x-4 flex">
+            <div className="align-center items-center ml-10 text-lg text-slate-50 space-x-4 flex">
               <HashLink to="/#home" className=" hover:bg-gray-700 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink>
               <HashLink to="/#projects" className=" hover:bg-gray-700 hover:text-white m-1 px-2 py-1 rounded-md font-medium">Projects</HashLink>
               <HashLink to="/#contact" className=" hover:bg-gray-700 hover:text-white m-1 px-2 py-1 rounded-md font-medium">Contact</HashLink>
