@@ -1,0 +1,48 @@
+nav ul {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  /* visibility: hidden;
+  opacity: 0; */
+  width: 140px;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  /* border-radius: 5px;
+  padding: 5px 0; */
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  right: 0;
+
+
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+
