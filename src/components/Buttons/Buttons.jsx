@@ -12,11 +12,12 @@ export default function Buttons() {
     <nav className="bg-transparent dotstyle dotstyle-fillup hidden md:block p-5 fixed top-72 right-0">
       <ul className="m-3">
         <HashLink to="/#home" className="hovertext" data-hover="home">
-          <li class="m-3 bg-slate-50 hover:bg-slate-400 p-1 border-1"></li></HashLink>
+          <li className="hover:outline-offset-4
+          hover:shadow-2xl hover:shadow-slate-50 m-3 bg-slate-50 hover:bg-slate-400 margin-0 p-1 border-1"></li></HashLink>
         <HashLink to="/#projects" className="hovertext" data-hover="projects">
-          <li class=" m-3 bg-slate-50 hover:bg-slate-400 p-1 border-1"></li></HashLink>
+          <li className=" m-3 bg-slate-50 hover:bg-slate-400 p-1 border-1"></li></HashLink>
         <HashLink to="/#contact" className="hovertext" data-hover="contact">
-          <li class=" m-3 bg-slate-50 hover:bg-slate-400 p-1 border-1"></li></HashLink>
+          <li className=" m-3 bg-slate-50 hover:bg-slate-400 p-1 border-1"></li></HashLink>
       </ul>
     </nav>
   )
