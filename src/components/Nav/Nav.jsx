@@ -9,7 +9,7 @@ function Nav() {
 
 
   return (
-    <div>
+    <div className="z-10">
       <nav className="sticky">
         <div className="px-4 flex justify-between over:opacity-100 p-1">
           <div className="flex items-center">
