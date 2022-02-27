@@ -33,88 +33,83 @@ export default function Contact() {
   return (
     <div className="z-0" id="contact">
 
-      <div class="relative flex items-top justify-center min-h-screen bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
-        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-          <div class="mt-8 overflow-hidden">
-            <div class="grid grid-cols-1 md:grid-cols-2">
-              <div class="p-6 mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
-                <h1 class="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight">
-                  Let's work together
+      <div className="flex items-top justify-center min-h-screen bg-blue-400 sm:items-center sm:pt-0">
+        <div className="w-10/12 md:w-7/12 lg:w-6/12 max-w-6xl mx-auto sm:px-6 lg:px-8">
+          <div className="mt-8 overflow-hidden">
+            <div className="grid grid-cols-1">
+              <div className="rounded-2xl p-14 mb-14 bg-slate-800">
+                <h1 className="text-4xl sm:text-4xl text-gray-800 dark:text-white font-extrabold tracking-tight">
+                  Let's work together!
                 </h1>
 
-
-                <div class="flex items-center mt-8 text-gray-600 dark:text-gray-400">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                <div className="flex items-center mt-8 text-gray-600 dark:text-gray-400">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" className="w-8 h-8 text-gray-500">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
-                  <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                  <div className="ml-4 text-md tracking-wide font-semibold w-40">
                     Washington, DC Metro-Area
                   </div>
                 </div>
 
-
-
-                <div class="flex items-center mt-2 text-gray-600 dark:text-gray-400">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                <div className="flex items-center mt-2 text-gray-600 dark:text-gray-400">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" className="w-8 h-8 text-gray-500">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                    bannersamuelson@gmail.com
+
+                  <div className="ml-4 hover:text-slate-50 text-md tracking-wide font-semibold">
+                    <a href="mailto:bannersamuelson@gmail.com">bannersamuelson@gmail.com</a>
                   </div>
                 </div>
+
+
+                <form
+                  onSubmit={onSubmit}
+                  className="pt-14 justify-center items-center h-screen bg-slate-800">
+                  <div className="py-3">
+                    <input
+                      type='text'
+                      name='from_name'
+                      placeholder='Full name'
+                      value={toSend.from_name}
+                      onChange={handleChange}
+                      className="focus:placeholder-transparent block appearance-none bg-slate-600 placeholder-slate-400 rounded-md w-full py-3 px-4 text-slate-50 leading-5 focus:outline-none" />
+                  </div>
+
+                  <div className="py-3">
+                    <input
+                      type='text'
+                      name='reply_to'
+                      placeholder='Your email'
+                      value={toSend.reply_to}
+                      onChange={handleChange}
+                      className="focus:placeholder-transparent block appearance-none bg-slate-600 placeholder-slate-400 rounded-md w-full py-3 px-4 text-slate-50 leading-5 focus:outline-none" />
+                  </div>
+
+                  <div className="py-3">
+
+                    <textarea
+                      type='text'
+                      name='message'
+                      placeholder='Message'
+                      value={toSend.message}
+                      onChange={handleChange}
+                      className="bg-slate-600 resize-none  block appearance-none placeholder-slate-400 placeholder-opacity-100 rounded-md w-full py-3 px-4 text-slate-50 leading-5 h-56 focus:outline-none"></textarea>
+                  </div>
+                  <div className="p-3 pt-4">
+                    <button
+                      type="submit"
+                      className="resize-none flex justify-center bg-gradient-to-r from-violet-800  to-violet-900
+                       hover:hover:from-violet-700 hover:to-violet-800 text-white font-bold py-2 px-4 rounded text-lg">
+                      Send email
+                    </button>
+                  </div>
+                </form>
               </div>
-
-              <form class="p-6 flex flex-col justify-center">
-                <div class="flex flex-col">
-                  <label for="name" class="hidden">Full Name</label>
-                  <input type="name" name="name" id="name" placeholder="Full Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
-                </div>
-
-                <div class="flex flex-col mt-2">
-                  <label for="email" class="hidden">Email</label>
-                  <input type="email" name="email" id="email" placeholder="Email" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
-                </div>
-
-                <div class="flex flex-col mt-2">
-                  <label for="tel" class="hidden">Number</label>
-                  <input type="tel" name="tel" id="tel" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
-                </div>
-
-                <button type="submit" class="md:w-32 bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300">
-                  Send
-                </button>
-              </form>
             </div>
           </div>
         </div>
-      </div>
-
-      <form onSubmit={onSubmit}>
-        <input
-          type='text'
-          name='from_name'
-          placeholder='from name'
-          value={toSend.from_name}
-          onChange={handleChange}
-        />
-
-        <input
-          type='text'
-          name='message'
-          placeholder='Your message'
-          value={toSend.message}
-          onChange={handleChange}
-        />
-        <input
-          type='text'
-          name='reply_to'
-          placeholder='Your email'
-          value={toSend.reply_to}
-          onChange={handleChange}
-        />
-        <button type='submit'>Submit</button>
-      </form>
-    </div>
+      </div >
+    </div >
   )
 }

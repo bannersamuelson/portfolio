@@ -8,7 +8,7 @@ export default function Home() {
     <div id="home" className="bg-waves bg-cover">
       <Nav />
       <div className="w-full">
-        <div className="grid grid-columns-1 justify-center text-center pt-72 pb-24">
+        <div className="grid grid-columns-1 justify-center text-center pt-56 md:pt-72 pb-24">
           <h3 id="name" className="text-6xl lg:text-6xl animate-charcter text-slate-50">BANNER <span className="block md:inline-block">  SAMUELSON</span></h3>
 
           <div id="soft" className="quantify flex justify-center fade-in-text text-slate-400 text-3xl">Software Engineer
