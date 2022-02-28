@@ -7,7 +7,7 @@ import laga4 from '../../images/laga4.png'
 export default function Projects() {
 
   return (
-    <div id="projects" className="bg-blue-400">
+    <div id="projects" className="bg-blen">
 
 
 

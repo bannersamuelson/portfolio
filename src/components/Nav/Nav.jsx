@@ -13,7 +13,7 @@ function Nav() {
       <nav className="sticky">
         <div className="px-4 flex justify-between over:opacity-100 p-1">
           <div className="flex items-center">
-            <HashLink to="/#home" className="text-slate-50 text-4xl logo border-2 circle hover:text-slate-200">B</HashLink>
+            <HashLink to="/#home" className="text-slate-50 text-4xl logo border-2 circle hover:text-slate-200 fixed">B</HashLink>
           </div>
 
           <div className="px-4 pt-1 hidden md:block align-center">
