@@ -10,13 +10,13 @@ function Nav() {
 
   return (
     <div className="z-10">
-      <nav className="sticky">
-        <div className="px-4 flex justify-between over:opacity-100 p-1">
+      <nav>
+        <div className="px-4 pt-4 flex justify-between over:opacity-100 ">
           <div className="flex items-center">
-            <HashLink to="/#home" className="text-slate-50 text-4xl mt-6 logo border-2 hover:border-rose-700 circle hover:text-rose-700 fixed">B</HashLink>
+            <HashLink to="/#home" className="text-slate-50 text-4xl logo border-2 hover:border-rose-700 circle hover:text-rose-700 fixed">B</HashLink>
           </div>
 
-          <div className="mt-4 px-4 pt-1 hidden md:block align-center">
+          <div className="px-4 pt-1 hidden md:block align-center">
             <div className="align-center items-center ml-10 text-lg text-slate-50 space-x-4 flex">
               <HashLink to="/#home" className="focus:bg-rose-400 hover:bg-rose-700 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink>
               <HashLink to="/#projects" className="focus:bg-rose-400 hover:bg-rose-700 hover:text-white m-1 px-2 py-1 rounded-md font-medium">Projects</HashLink>
@@ -51,7 +51,6 @@ function Nav() {
               />
             </button>
           </div>
-
         </div>
 
         <Transition
@@ -65,9 +64,21 @@ function Nav() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="bg-slate-900 mt-1 p-3 space-y-1">
+              <div className="bg-slate-900 mt-4 p-3 space-y-1">
                 <div id="icons" className="flex">
-                  <div className="pl-4 px-1 hover:cursor-pointer text-slate-50 opacity-75 hover:opacity-100">
+                  <div className="pl-2 px-1 hover:cursor-pointer text-slate-50 opacity-75 hover:opacity-100">
+                    <a target="_blank" href="hhttps://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
+                      <svg
+                        class="w-5 h-5 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512">
+                        <path
+                          d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                  <div className="px-1 hover:cursor-pointer text-slate-50 opacity-75 hover:opacity-100">
                     <a target="_blank" href="https://www.facebook.com/banner.samuelson/" rel="noreferrer">
                       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" /></svg>
                     </a>
