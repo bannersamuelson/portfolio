@@ -16,6 +16,8 @@ export default function Buttons() {
           hover:shadow-2xl hover:shadow-slate-50 m-3 bg-slate-50 hover:bg-slate-400 margin-0 p-1 border-1"></li></HashLink>
         <HashLink to="/#projects" className="hovertext" data-hover="Projects">
           <li className=" m-3 bg-slate-50 hover:bg-slate-400 p-1 border-1"></li></HashLink>
+        <HashLink to="/#about" className="hovertext" data-hover="About">
+          <li className=" m-3 bg-slate-50 hover:bg-slate-400 p-1 border-1"></li></HashLink>
         <HashLink to="/#contact" className="hovertext" data-hover="Contact">
           <li className=" m-3 bg-slate-50 hover:bg-slate-400 p-1 border-1"></li></HashLink>
       </ul>

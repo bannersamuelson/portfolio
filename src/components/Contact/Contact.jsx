@@ -35,11 +35,12 @@ export default function Contact() {
 
       <div className="flex justify-center bg-blen sm:items-center sm:pt-0 pb-44">
 
-        <div className="w-11/12 max-w-6xl xl:px-14">
+        <div className="w-11/12 max-w-6xl md:px-24 xl:pr-24">
           <div className="mt-8 overflow-hidden">
             <div className="grid grid-cols-1">
 
-              <div className="rounded-2xl p-14 mb-14 bg-blen">
+              <div className="rounded-2xl p-14 md:p-0 mb-14 bg-blen">
+                <span className="pb-14 pt-4 flex justify-center text-5xl text-rose-700">Contact</span>
                 <h1 className="text-4xl sm:text-4xl text-rose-700 dark:text-white font-extrabold tracking-tight">
                   Let's work together!
                 </h1>
