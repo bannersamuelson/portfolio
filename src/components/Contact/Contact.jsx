@@ -35,7 +35,7 @@ export default function Contact() {
 
       <div className="flex justify-center bg-blen sm:items-center sm:pt-0 pb-44">
 
-        <div className="w-11/12 max-w-6xl lg:px-8 xl:px-14">
+        <div className="w-11/12 max-w-6xl xl:px-14">
           <div className="mt-8 overflow-hidden">
             <div className="grid grid-cols-1">
 

@@ -20,6 +20,7 @@ function Nav() {
             <div className="align-center items-center ml-10 text-lg text-slate-50 space-x-4 flex">
               <HashLink to="/#home" className="focus:text-rose-500 hover:text-rose-700 border-2 border-transparent  hover:border-rose-700 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink>
               <HashLink to="/#projects" className="  hover:text-rose-700 border-2 border-transparent focus:text-rose-500 hover:border-rose-700 m-1 px-2 py-1 rounded-md font-medium">Projects</HashLink>
+              <HashLink to="/#about" className="  hover:text-rose-700 border-2 border-transparent focus:text-rose-500 hover:border-rose-700 m-1 px-2 py-1 rounded-md font-medium">About</HashLink>
               <HashLink to="/#contact" className="  hover:text-rose-700 border-2 border-transparent focus:text-rose-500 hover:border-rose-700 m-1 px-2 py-1 rounded-md font-medium">Contact</HashLink>
             </div>
           </div>
@@ -108,6 +109,14 @@ function Nav() {
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   Projects
+                </HashLink>
+
+                <HashLink
+                  to="/#about"
+                  className="text-slate-50 rounded-md hover:bg-slate-800 hover:text-white block px-3 py-2 text-base font-medium"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  About
                 </HashLink>
 
                 <HashLink
