@@ -1,17 +1,55 @@
 import laga from '../../images/laga.png'
+import local from '../../images/local.png'
+import cevap from '../../images/cevap.png'
 
 export default function Projects() {
 
   return (
-    <div id="projects" className="grid grid-cols-1 mx-auto justify-center bg-blen">
-      <div className="text-4xl text-slate-50">Projects</div>
-      <div className="p-4 text-slate-50">
-        <img src={laga} alt="life after ga" className="h-96" />
-        Life After General Assembly<br />
-        Full stack application, that allows users to create, review, update and edit reviews and resource links for educational purposes. Created to help students communcaite and categorize resources to assist with software engineering jobs.
-        <br />
-        <br />Technology used: Reactjs, MongoDB, Netlify, TailwindCSS, Heroku, HTML, CSS
-        <br /><a href="https://silly-kowalevski-1591fc.netlify.app/" target="_blank" rel="noreferrer">Deployed Site</a>
+    <div id="projects" className="justify-center bg-blen">
+      <div className="pb-14 pt-4 flex justify-center text-5xl text-rose-700">PROJECTS</div>
+
+      {/* laga project */}
+      <div className="grid grid-cols-2 p-4 text-slate-50">
+        <div>
+          <img src={laga} alt="life after ga" className="h-max" />
+        </div>
+
+        <div className="justify-center align-center flex flex-col pr-36">
+          <span className="text-4xl pb-1 text-slate-50">Life After General Assembly<br /></span>
+          <span className="text-slate-400 text-lg pb-6">Reactjs, MongoDB, Netlify, TailwindCSS, Heroku, HTML, CSS</span>
+          <span className="text-slate-50">
+            Full stack application, that allows users to create, review, update and edit reviews and resource links for educational purposes. Created to help students communcaite and categorize resources to assist with software engineering jobs.
+          </span>
+          <br />
+          <a className="bg-rose-700 rounded-md hover:bg-rose-400 p-2 mt-8 w-36 flex justify-center" href="https://silly-kowalevski-1591fc.netlify.app/" target="_blank" rel="noreferrer">VISIT SITE</a>
+        </div>
+
+        {/* local store */}
+        <div>
+          <img src={local} alt="life after ga" className="h-max" />
+        </div>
+        <div className="justify-center align-center flex flex-col pr-36">
+          <span className="text-4xl pb-1 text-slate-50">Supporting Local<br /></span>
+          <span className="text-slate-400 text-lg pb-6">Reactjs, MongoDB, Netlify, TailwindCSS, Heroku, HTML, CSS</span>
+          <span className="text-slate-50">
+            Full stack application, that allows users to create, review, update and edit reviews and resource links for educational purposes. Created to help students communcaite and categorize resources to assist with software engineering jobs.
+          </span>
+          <br />
+          <a className="bg-rose-700 rounded-md hover:bg-rose-400 p-2 mt-8 w-36 flex justify-center" href="https://silly-kowalevski-1591fc.netlify.app/" target="_blank" rel="noreferrer">VISIT SITE</a>
+        </div>
+        {/* Cevap */}
+        <div>
+          <img src={cevap} alt="life after ga" className="h-max" />
+        </div>
+        <div className="justify-center align-center flex flex-col pr-36">
+          <span className="text-4xl pb-1 text-slate-50">CEVAP Game Finder<br /></span>
+          <span className="text-slate-400 text-lg pb-6">Reactjs, MongoDB, Netlify, TailwindCSS, Heroku, HTML, CSS</span>
+          <span className="text-slate-50">
+            Full stack application, that allows users to create, review, update and edit reviews and resource links for educational purposes. Created to help students communcaite and categorize resources to assist with software engineering jobs.
+          </span>
+          <br />
+          <a className="bg-rose-700 rounded-md hover:bg-rose-400 p-2 mt-8 w-36 flex justify-center" href="https://silly-kowalevski-1591fc.netlify.app/" target="_blank" rel="noreferrer">VISIT SITE</a>
+        </div>
 
 
       </div>

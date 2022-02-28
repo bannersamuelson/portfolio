@@ -13,14 +13,14 @@ function Nav() {
       <nav className="sticky">
         <div className="px-4 flex justify-between over:opacity-100 p-1">
           <div className="flex items-center">
-            <HashLink to="/#home" className="text-slate-50 text-4xl logo border-2 circle hover:text-slate-200 fixed">B</HashLink>
+            <HashLink to="/#home" className="text-slate-50 text-4xl mt-6 logo border-2 hover:border-rose-700 circle hover:text-rose-700 fixed">B</HashLink>
           </div>
 
-          <div className="px-4 pt-1 hidden md:block align-center">
+          <div className="mt-4 px-4 pt-1 hidden md:block align-center">
             <div className="align-center items-center ml-10 text-lg text-slate-50 space-x-4 flex">
-              <HashLink to="/#home" className=" hover:bg-gray-700 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink>
-              <HashLink to="/#projects" className=" hover:bg-gray-700 hover:text-white m-1 px-2 py-1 rounded-md font-medium">Projects</HashLink>
-              <HashLink to="/#contact" className=" hover:bg-gray-700 hover:text-white m-1 px-2 py-1 rounded-md font-medium">Contact</HashLink>
+              <HashLink to="/#home" className="focus:bg-rose-400 hover:bg-rose-700 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink>
+              <HashLink to="/#projects" className="focus:bg-rose-400 hover:bg-rose-700 hover:text-white m-1 px-2 py-1 rounded-md font-medium">Projects</HashLink>
+              <HashLink to="/#contact" className="focus:bg-rose-400 hover:bg-rose-700 hover:text-white m-1 px-2 py-1 rounded-md font-medium">Contact</HashLink>
             </div>
           </div>
 
