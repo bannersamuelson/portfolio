@@ -33,11 +33,11 @@ export default function Contact() {
   return (
     <div className="z-0" id="contact">
 
-      <div className="flex items-top justify-center min-h-screen bg-blue-400 sm:items-center sm:pt-0">
+      <div className="flex items-top justify-center min-h-screen bg-blen sm:items-center sm:pt-0">
         <div className="w-10/12 md:w-7/12 lg:w-6/12 max-w-6xl mx-auto sm:px-6 lg:px-8">
           <div className="mt-8 overflow-hidden">
             <div className="grid grid-cols-1">
-              <div className="rounded-2xl p-14 mb-14 bg-slate-800">
+              <div className="rounded-2xl p-14 mb-14 bg-slate-900">
                 <h1 className="text-4xl sm:text-4xl text-gray-800 dark:text-white font-extrabold tracking-tight">
                   Let's work together!
                 </h1>
@@ -65,7 +65,7 @@ export default function Contact() {
 
                 <form
                   onSubmit={onSubmit}
-                  className="pt-14 justify-center items-center h-screen bg-slate-800">
+                  className="pt-14 justify-center items-center h-screen bg-slate-900">
                   <div className="py-3">
                     <input
                       type='text'
@@ -73,7 +73,7 @@ export default function Contact() {
                       placeholder='Full name'
                       value={toSend.from_name}
                       onChange={handleChange}
-                      className="focus:placeholder-transparent block appearance-none bg-slate-600 placeholder-slate-400 rounded-md w-full py-3 px-4 text-slate-50 leading-5 focus:outline-none" />
+                      className="focus:placeholder-transparent block appearance-none bg-slate-700 placeholder-slate-400 rounded-md w-full py-3 px-4 text-slate-50 leading-5 focus:outline-none" />
                   </div>
 
                   <div className="py-3">
@@ -83,7 +83,7 @@ export default function Contact() {
                       placeholder='Your email'
                       value={toSend.reply_to}
                       onChange={handleChange}
-                      className="focus:placeholder-transparent block appearance-none bg-slate-600 placeholder-slate-400 rounded-md w-full py-3 px-4 text-slate-50 leading-5 focus:outline-none" />
+                      className="focus:placeholder-transparent block appearance-none bg-slate-700 placeholder-slate-400 rounded-md w-full py-3 px-4 text-slate-50 leading-5 focus:outline-none" />
                   </div>
 
                   <div className="py-3">
@@ -94,13 +94,13 @@ export default function Contact() {
                       placeholder='Message'
                       value={toSend.message}
                       onChange={handleChange}
-                      className="bg-slate-600 resize-none  block appearance-none placeholder-slate-400 placeholder-opacity-100 rounded-md w-full py-3 px-4 text-slate-50 leading-5 h-56 focus:outline-none"></textarea>
+                      className="bg-slate-700 resize-none  block appearance-none placeholder-slate-400 placeholder-opacity-100 rounded-md w-full py-3 px-4 text-slate-50 leading-5 h-56 focus:outline-none"></textarea>
                   </div>
                   <div className="p-3 pt-4">
                     <button
                       type="submit"
-                      className="resize-none flex justify-center bg-gradient-to-r from-violet-800  to-violet-900
-                       hover:hover:from-violet-700 hover:to-violet-800 text-white font-bold py-2 px-4 rounded text-lg">
+                      className="resize-none flex justify-center bg-rose-700
+                       hover:bg-rose-800 text-white font-bold py-2 px-4 rounded text-lg">
                       Send email
                     </button>
                   </div>

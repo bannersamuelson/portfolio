@@ -32,7 +32,7 @@ nav li:focus {
   opacity: 0;
   padding-right: 3rem;
   background-color: transparent;
-  color: #fff;
+  color: #f8fafc;
   text-align: center;
   transition: opacity 1s ease-in-out;
   position: absolute;
@@ -48,8 +48,8 @@ nav li:focus {
 }
 
 .hovertext:hover li {
-  background-color: #e2e8f0;
-  box-shadow: 0 0 5px 5px  #f8fafc;
+  background-color: #be123c;
+  box-shadow: 0 0 5px 5px  #be123c;
 }
 
 

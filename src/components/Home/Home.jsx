@@ -9,7 +9,7 @@ export default function Home() {
       <Nav />
       <div className="w-full">
         <div className="grid grid-columns-1 justify-center pt-56 pb-24">
-          <h3 id="name" className="text-6xl lg:text-7xl animate-charcter text-rose-500">Hello.<span className="block text-slate-50">  I am </span>
+          <h3 id="name" className="text-6xl lg:text-7xl animate-charcter text-rose-700">Hello.<span className="block text-slate-50">  I am </span>
             <span className="block text-slate-50">  Banner</span>
           </h3>
 
