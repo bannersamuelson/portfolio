@@ -4,6 +4,7 @@ import React from "react";
 import Contact from './components/Contact/Contact';
 import Buttons from './components/Buttons/Buttons';
 import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Contact />
       </div>
+      <Footer />
     </>
   );
 }

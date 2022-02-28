@@ -31,11 +31,11 @@ export default function Contact() {
   };
 
   return (
-    <div className="z-0" id="contact">
+    <div className="z-2" id="contact">
 
-      <div className="flex justify-center bg-blen sm:items-center sm:pt-0">
+      <div className="flex justify-center bg-blen sm:items-center sm:pt-0 pb-44">
 
-        <div className="w-10/12 max-w-6xl lg:px-8 xl:px-14">
+        <div className="w-11/12 max-w-6xl lg:px-8 xl:px-14">
           <div className="mt-8 overflow-hidden">
             <div className="grid grid-cols-1">
 
@@ -125,13 +125,12 @@ export default function Contact() {
                       placeholder='Message'
                       value={toSend.message}
                       onChange={handleChange}
-                      className="bg-slate-700 resize-none  block appearance-none placeholder-slate-400 placeholder-opacity-100 rounded-md w-full py-3 px-4 text-slate-50 leading-5 h-56 focus:outline-none"></textarea>
+                      className="bg-slate-700 resize-none  block appearance-none placeholder-slate-400 placeholder-opacity-100 rounded-md w-full py-3 px-4 text-slate-50 leading-5 h-56 focus:outline-none focus:placeholder-transparent"></textarea>
                   </div>
-                  <div className="p-3 pt-4">
+                  <div className="pt-4">
                     <button
                       type="submit"
-                      className="resize-none flex justify-center bg-rose-700
-                       hover:bg-rose-800 text-white font-bold py-2 px-4 rounded text-lg">
+                      className="resize-none flex justify-center bg-transparent border-2 border-rose-700                       hover:bg-rose-700 text-white font-bold py-2 px-4 rounded text-lg">
                       Send email
                     </button>
                   </div>

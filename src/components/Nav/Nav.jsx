@@ -18,9 +18,9 @@ function Nav() {
 
           <div className="px-4 pt-1 hidden md:block align-center">
             <div className="align-center items-center ml-10 text-lg text-slate-50 space-x-4 flex">
-              <HashLink to="/#home" className="focus:bg-rose-400 hover:bg-rose-700 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink>
-              <HashLink to="/#projects" className="focus:bg-rose-400 hover:bg-rose-700 hover:text-white m-1 px-2 py-1 rounded-md font-medium">Projects</HashLink>
-              <HashLink to="/#contact" className="focus:bg-rose-400 hover:bg-rose-700 hover:text-white m-1 px-2 py-1 rounded-md font-medium">Contact</HashLink>
+              <HashLink to="/#home" className="focus:text-rose-500 hover:text-rose-700 border-2 border-transparent  hover:border-rose-700 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink>
+              <HashLink to="/#projects" className="  hover:text-rose-700 border-2 border-transparent focus:text-rose-500 hover:border-rose-700 m-1 px-2 py-1 rounded-md font-medium">Projects</HashLink>
+              <HashLink to="/#contact" className="  hover:text-rose-700 border-2 border-transparent focus:text-rose-500 hover:border-rose-700 m-1 px-2 py-1 rounded-md font-medium">Contact</HashLink>
             </div>
           </div>
 
@@ -30,7 +30,7 @@ function Nav() {
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
-              className="flex flex-col text-slate 300 h-12 w-12 border-2 border-transparent rounded justify-center items-center group border-opacity-100 hover:border-white hover:border-opacity-100 hover:text-slate-50" aria-controls="mobile-menu"
+              className="flex flex-col h-12 w-12 border-2 border-transparent rounded justify-center items-center group border-opacity-100 hover:border-white hover:border-opacity-100" aria-controls="mobile-menu"
               aria-expanded="false"
             >
               <div
