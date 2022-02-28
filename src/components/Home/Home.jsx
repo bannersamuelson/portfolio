@@ -1,5 +1,5 @@
 import './Home.css'
-import Nav from '../components/Nav/Nav'
+import Nav from '../Nav/Nav'
 
 
 export default function Home() {
