@@ -22,7 +22,7 @@ export default function Projects() {
           <div className="mt-8 lg:mt-16 xl:mt-24 flex items-center lg:items-start flex-col px-24 lg:px-0 md:px-14 lg:pr-36">
             <span className="text-4xl pb-1 text-slate-50">Life After General Assembly<br /></span>
             <span className="text-slate-400 text-lg pb-6">Reactjs, MongoDB, Netlify, TailwindCSS, Heroku, HTML, CSS</span>
-            <span className="text-slate-50 grid-item">
+            <span className="text-slate-50 flex items-center md:mx-24 lg:mx-auto">
               Full stack application, that allows users to create, review, update and edit reviews and resource links for educational purposes. Created to help students communcaite and categorize resources to assist with software engineering jobs.
             </span>
             <br />
@@ -35,8 +35,8 @@ export default function Projects() {
           <div className="mt-8 lg:mt-16 xl:mt-24 flex items-center lg:items-start flex-col px-24 lg:px-0 md:px-14 lg:pr-36">
             <span className="text-4xl pb-1 text-slate-50">Supporting Local<br /></span>
             <span className="text-slate-400 text-lg pb-6">Netlify, MongoDB, MongoDB, Express, TailwindCSS </span>
-            <span className="text-slate-50 flex items-center mx-auto">
-              Full Stack that allows users to explore the local area with suggestions and information on the DMV.<br />
+            <span className="text-slate-50 flex items-center md:mx-24 lg:mx-auto">
+              Full Stack that allows users to explore the local area with suggestions and information on the DMV.
               Used to find all the favorite spots in the DMV for the locals and tourists alike.
             </span>
             <br />
@@ -48,7 +48,7 @@ export default function Projects() {
           <div className="mt-8 lg:mt-16 xl:mt-24 flex items-center lg:items-start flex-col px-24 lg:px-0 md:px-14 lg:pr-36">
             <span className="text-4xl pb-1 text-slate-50">Cevap Game Finder<br /></span>
             <span className="text-slate-400 text-lg pb-6">JavaScript, HTML5, CSS, Github, Api</span>
-            <span>
+            <span className="text-slate-50 flex items-center md:mx-24 lg:mx-auto">
               Front-End app that helps users find computer and video game information. Full game API used for all your gaming favorites.
             </span>
             <br />
