@@ -14,20 +14,7 @@ export default function Home() {
           </h3>
 
           <div className="quantify flex justify-center fade-in-text text-slate-200 text-3xl mt-8">Software Developer
-            <div className="container quantify flex justify-center fade-in-text text-slate-200 text-3xl mt-8">
-              <div class="word w1">Software</div>
-              <div class="word w2">Frontend</div>
-              <div class="word w3">Backend</div>
-              <div class="word w4">Web</div>
-              <div class="word w5">Full Stack</div>
-            </div>
-            <div className="container2 quantify flex justify-center fade-in-text text-slate-200 text-3xl mt-8">
-              <div class="word w1">Engineer</div>
-              <div class="word w2">Frontend</div>
-              <div class="word w3">Backend</div>
-              <div class="word w4">Web</div>
-              <div class="word w5">Full Stack</div>
-            </div>
+
           </div >
         </div>
       </div>

@@ -131,7 +131,7 @@ export default function Contact() {
                   <div className="pt-4">
                     <button
                       type="submit"
-                      className="resize-none flex justify-center bg-transparent border-2 border-rose-700                       hover:bg-rose-700 text-white font-bold py-2 px-4 rounded text-lg">
+                      className="resize-none flex justify-center bg-rose-700 border-2 border-rose-700   hover:bg-rose-900 text-white font-bold py-2 px-4 rounded text-lg">
                       Send email
                     </button>
                   </div>
