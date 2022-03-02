@@ -1,7 +1,6 @@
 import React from 'react'
 
-export default function
-  () {
+export default function Footer() {
   return (
     <footer class="text-center w-full text-white bg-banner">
       <div class="w-full pt-9">
