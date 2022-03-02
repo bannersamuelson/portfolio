@@ -14,8 +14,8 @@ export default function Home() {
           </h3>
 
           <div className="quantify flex justify-center fade-in-text text-slate-200 text-3xl mt-8">Software Developer
-
           </div >
+
         </div>
       </div>
       <div className="curved-div">
