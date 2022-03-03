@@ -11,10 +11,10 @@ nav li {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: black;
   cursor: pointer;
   transition: .5s;
   z-index: 4;
+  
 }
 
 nav li:focus {
