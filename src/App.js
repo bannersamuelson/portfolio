@@ -31,8 +31,12 @@ function App() {
           <Footer />
         </div>
       ) : (
-        <div className="loading">
-          <h1>Page is loading...</h1>
+        <div className="z-10">
+          <div className="bg-blen h-screen px-4 py-4 flex over:opacity-100 ">
+            <div className="flex">
+              <div className="text-slate-400 ml-1 text-4xl logo border-2 border-slate-400 hover:border-rose-700 circle fixed">B</div>
+            </div>
+          </div>
         </div>
       )}
     </>
