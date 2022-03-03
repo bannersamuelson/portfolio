@@ -18,7 +18,7 @@ export default function About() {
 
         <br />
         <br />
-        Ruby | Rails | Tailwind CSS | Bootstrap | React.js | Mongoose | MongoDB | PostgreSQL | SQL | HTML | JSON | JavaScript | Bootstrap | Github | Git | Express.js | Heroku | Netlify | Node.js   </p>
+        Ruby | Rails | Tailwind CSS | Bootstrap | React.js | Mongoose | MongoDB | PostgreSQL | SQL | HTML | JSON | JavaScript | Github | Git | Express.js | Heroku | Netlify | Node.js   </p>
 
       <img className="fill-slate-50 h-10  md:h-14 mt-4 mx-auto" src={quotes2} alt="quotes" />
     </div>

@@ -66,7 +66,7 @@ export default function Contact() {
                 </div>
                 <div id="icons" className="flex pt-4">
                   <div className="pl-2 px-1 hover:cursor-pointer text-slate-50 opacity-75 hover:opacity-100">
-                    <a target="_blank" href="hhttps://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
+                    <a target="_blank" href="https://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
                       <svg
                         class="w-5 h-5 fill-current"
                         xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +105,7 @@ export default function Contact() {
                       placeholder='Full name'
                       value={toSend.from_name}
                       onChange={handleChange}
-                      className="focus:placeholder-transparent block appearance-none bg-slate-700 placeholder-slate-400 rounded-md w-full py-3 px-4 text-slate-50 leading-5 focus:outline-none" />
+                      className="focus:placeholder-transparent block appearance-none bg-zinc-900 placeholder-slate-400 rounded-md w-full py-3 px-4 text-slate-50 leading-5 focus:outline-none" />
                   </div>
 
                   <div className="py-3">
@@ -115,7 +115,7 @@ export default function Contact() {
                       placeholder='Your email'
                       value={toSend.reply_to}
                       onChange={handleChange}
-                      className="focus:placeholder-transparent block appearance-none bg-slate-700 placeholder-slate-400 rounded-md w-full py-3 px-4 text-slate-50 leading-5 focus:outline-none" />
+                      className="focus:placeholder-transparent block appearance-none bg-zinc-900 placeholder-slate-400 rounded-md w-full py-3 px-4 text-slate-50 leading-5 focus:outline-none" />
                   </div>
 
                   <div className="py-3">
@@ -126,7 +126,7 @@ export default function Contact() {
                       placeholder='Message'
                       value={toSend.message}
                       onChange={handleChange}
-                      className="bg-slate-700 resize-none  block appearance-none placeholder-slate-400 placeholder-opacity-100 rounded-md w-full py-3 px-4 text-slate-50 leading-5 h-56 focus:outline-none focus:placeholder-transparent"></textarea>
+                      className="bg-zinc-900 resize-none  block appearance-none placeholder-slate-400 placeholder-opacity-100 rounded-md w-full py-3 px-4 text-slate-50 leading-5 h-56 focus:outline-none focus:placeholder-transparent"></textarea>
                   </div>
                   <div className="pt-4">
                     <button

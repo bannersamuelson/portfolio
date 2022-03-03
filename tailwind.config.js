@@ -7,9 +7,9 @@ module.exports = {
     extend: {
       colors: {
         // Configure your color palette here
-        'blen': '#080517',
+        'blen': '#000',
         'reddy': '#2c0615',
-        'banner': '#08010c',
+        'banner': '#080517',
       },
       backgroundImage: {
         'waves': "url('../src/images/Bg.jpeg')",

@@ -27,7 +27,7 @@ function Nav() {
 
 
 
-          <div className="px-4 flex md:hidden">
+          <div className="px-1 flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
@@ -65,8 +65,8 @@ function Nav() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div className="bg-slate-900 mt-4 p-3 space-y-1">
-                <div id="icons" className="flex">
+              <div className="bg-neutral-900 mt-4 p-3 space-y-1">
+                <div id="icons" className="py-2 flex">
                   <div className="pl-2 px-1 hover:cursor-pointer text-slate-50 opacity-75 hover:opacity-100">
                     <a target="_blank" href="https://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
                       <svg
@@ -97,7 +97,7 @@ function Nav() {
                 </div>
                 <HashLink
                   to="/#home"
-                  className="text-slate-50 rounded-md  hover:bg-slate-800 hover:text-white block px-3 py-2 text-base font-medium"
+                  className="text-slate-50 rounded-md hover:bg-neutral-700 hover:text-white block px-3 py-2 text-base font-medium"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   Home
@@ -105,7 +105,7 @@ function Nav() {
 
                 <HashLink
                   to="/#projects"
-                  className="text-slate-50 rounded-md hover:bg-slate-800 hover:text-white block px-3 py-2 text-base font-medium"
+                  className="text-slate-50 rounded-md hover:bg-neutral-700 hover:text-white block px-3 py-2 text-base font-medium"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   Projects
@@ -113,7 +113,7 @@ function Nav() {
 
                 <HashLink
                   to="/#about"
-                  className="text-slate-50 rounded-md hover:bg-slate-800 hover:text-white block px-3 py-2 text-base font-medium"
+                  className="text-slate-50 rounded-md hover:bg-neutral-700 hover:text-white block px-3 py-2 text-base font-medium"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   About
@@ -121,7 +121,7 @@ function Nav() {
 
                 <HashLink
                   to="/#contact"
-                  className="text-slate-50 rounded-md hover:bg-slate-800 hover:text-white block px-3 py-2 text-base font-medium"
+                  className="text-slate-50 rounded-md hover:bg-neutral-700 hover:text-white block px-3 py-2 text-base font-medium"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   Contact
