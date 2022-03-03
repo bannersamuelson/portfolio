@@ -40,7 +40,7 @@ export default function Projects() {
               Used to find all the favorite spots in the DMV for the locals and tourists alike.
             </span>
             <br />
-            <a className="mb-14 rounded-md hover:bg-rose-900 p-2 w-36 lg:mt-8 lg:w-36 bg-rose-700 border-2 border-rose-700 flex justify-center" href="https://silly-kowalevski-1591fc.netlify.app/" target="_blank" rel="noreferrer">VISIT SITE</a>
+            <a className="mb-14 rounded-md hover:bg-rose-900 p-2 w-36 lg:mt-8 lg:w-36 bg-rose-700 border-2 border-rose-700 flex justify-center" href="https://pensive-stonebraker-9e126d.netlify.app/" target="_blank" rel="noreferrer">VISIT SITE</a>
           </div>
           {/* Cevap */}
           {/* local store */}
@@ -52,7 +52,7 @@ export default function Projects() {
               Front-End app that helps users find computer and video game information. Full game API used for all your gaming favorites.
             </span>
             <br />
-            <a className="mb-14 rounded-md hover:bg-rose-900 p-2 w-36 lg:mt-8 lg:w-36 bg-rose-700 border-2 border-rose-700 flex justify-center" href="https://silly-kowalevski-1591fc.netlify.app/" target="_blank" rel="noreferrer">VISIT SITE</a>
+            <a className="mb-14 rounded-md hover:bg-rose-900 p-2 w-36 lg:mt-8 lg:w-36 bg-rose-700 border-2 border-rose-700 flex justify-center" href="https://bannersamuelson.github.io/Cevap-Game-Finder/" target="_blank" rel="noreferrer">VISIT SITE</a>
           </div>
 
 
