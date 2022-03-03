@@ -6,7 +6,7 @@ export default function Footer() {
       <div class="w-full pt-9">
         <div class="flex w-full justify-center">
           {/* LinkedIn */}
-          <a className=" text-slate-400 hover:text-slate-50 mx-4" target="_blank" href="hhttps://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
+          <a className=" text-slate-400 hover:text-slate-50 mx-4" target="_blank" href="https://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -42,7 +42,7 @@ export default function Footer() {
             </svg>
           </a>
           {/* facebook */}
-          <a href="https://www.instagram.com/itsbanner/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-slate-50 mx-4">
+          <a href="https://www.facebook.com/banner.samuelson/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-slate-50 mx-4">
             <svg
               aria-hidden="true"
               focusable="false"
