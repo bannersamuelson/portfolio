@@ -13,9 +13,8 @@ function Nav() {
       <nav>
         <div className="px-4 pt-4 flex justify-between over:opacity-100 ">
           <div className="flex items-center">
-            <HashLink to="/#home" className="text-slate-50 ml-1 text-4xl logo border-2 hover:border-rose-700 circle fixed">B</HashLink>
+            <HashLink to="/#home" className="text-slate-50 ml-1 text-4xl logo border-2 focus:border-slate-400 focus:text-slate-400 circle fixed">B</HashLink>
           </div>
-
           <div className="px-4 pt-1 hidden md:block align-center">
             <div className="align-center items-center ml-10 text-lg text-slate-50 space-x-4 flex">
               <HashLink to="/#home" className="focus:text-rose-500 hover:text-rose-700 border-2 border-transparent  hover:border-rose-700 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink>
