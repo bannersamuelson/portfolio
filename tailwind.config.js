@@ -6,13 +6,11 @@ module.exports = {
 
     extend: {
       fontSize: {
-        'big': '17rem',
+        'big': '20rem',
       },
-      height: {
-        'bb': '21rem',
-      },
+
       width: {
-        'bb': '21rem',
+        'bb': '3rem',
       },
       colors: {
         // Configure your color palette here
