@@ -1,14 +1,16 @@
  /* loading B gif */
-.loadingScreen {
+ .loadingScreen {
   background-image: url(https://media4.giphy.com/media/kUPBrywuioXBLRK1P4/giphy.gif?cid=ecf05e47lbz8ywrtudqxeu6kplawiaiqlr849087q5lxy02h&rid=giphy.gif&ct=g);
   background-size: fit;
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  height: 300px;
-font-family: 'Quantify'
+  height: 300px
+
   }
+
+
 
   /* loading text */
   .element {

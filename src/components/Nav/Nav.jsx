@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { HashLink } from 'react-router-hash-link';
+import Logo from '../../images/Logo_REV.png'
 import './Nav.css'
 
 function Nav() {
@@ -13,9 +14,9 @@ function Nav() {
       <nav>
         <div className="px-4 pt-4 flex justify-between over:opacity-100 ">
           <div className="flex items-center">
-            <HashLink to="/#home" className="text-slate-50 ml-1 text-4xl logo border-2 focus:border-slate-400 focus:text-slate-400 circle fixed">B</HashLink>
+            <HashLink to="/#home" className="text-slate-50 ml-1 w-16 text-4xl logo circle fixed"><img src={Logo} alt="logo" /></HashLink>
           </div>
-          <div className="px-4 pt-1 hidden md:block align-center">
+          <div className="px-4 py-1 pt-1 hidden md:block align-center">
             <div className="align-center items-center ml-10 text-lg text-slate-50 space-x-4 flex">
               <HashLink to="/#home" className="focus:text-rose-500 hover:text-rose-700 border-2 border-transparent  hover:border-rose-700 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink>
               <HashLink to="/#projects" className="  hover:text-rose-700 border-2 border-transparent focus:text-rose-500 hover:border-rose-700 m-1 px-2 py-1 rounded-md font-medium">Projects</HashLink>
@@ -26,7 +27,7 @@ function Nav() {
 
 
 
-          <div className="px-1 flex md:hidden">
+          <div className="px-1 py-1 flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
