@@ -5,7 +5,6 @@ import Contact from './components/Contact/Contact';
 import Buttons from './components/Buttons/Buttons';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
-import logo from './images/Logo.png'
 import './App.css'
 
 function App() {
