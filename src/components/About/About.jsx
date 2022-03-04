@@ -10,17 +10,15 @@ export default function About() {
 
       <img className="flex mb-14 mx-auto justify-center rounded-full h-80" src={profile} alt=" banner samuelson profile" />
       <img className="h-10 md:h-14 mx-auto flex" src={quotes} alt="quotes" />
-      <p className="mx-auto flex px-24 text-slate-300">
-        <br /> Software Engineer with a speciality in Front-End design and layout implementations. Love to code and make webpages that push the industry standard.
-
-        <br />
-        <br />My current skills include but are not limited to:
-
-        <br />
-        <br />
-        Ruby | Rails | Tailwind CSS | Bootstrap | React.js | Mongoose | MongoDB | PostgreSQL | SQL | HTML | JSON | JavaScript | Github | Git | Express.js | Heroku | Netlify | Node.js   </p>
+      <p className="mx-auto flex px-14 text-slate-300">
+        <br /> Software Engineer with a speciality in Front-End design and layout implementations. Love to code and make webpages that push the industry standard. Born and raised in Pennsylvania, I recently moving to the DMV area to pursue my career fulltime.
+      </p>
       <img className="fill-slate-50 h-10  md:h-14 mt-4 mx-auto" src={quotes2} alt="quotes" />
 
+      <div className="text-slate-300 p-14">
+
+        Ruby | Rails | Tailwind CSS | Bootstrap | React.js | Mongoose | MongoDB | PostgreSQL | SQL | HTML | JSON | JavaScript | Github | Git | Express.js | Heroku | Netlify | Node.js
+      </div>
     </div>
 
   )

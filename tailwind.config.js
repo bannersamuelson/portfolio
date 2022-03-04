@@ -21,7 +21,7 @@ module.exports = {
         'banner': '#080517',
       },
       backgroundImage: {
-        'waves': "url('../src/images/Bg.jpeg')",
+        'waves': "url('../src/images/waves.jpg')",
       },
     },
     plugins: [],
