@@ -5,6 +5,7 @@ import Contact from './components/Contact/Contact';
 import Buttons from './components/Buttons/Buttons';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
+import logo from './images/Logo.png'
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <>
-      {loading === false ? (
+      {/* {loading === false ? (
         <div>
           <Home />
           <Buttons />
@@ -30,15 +31,18 @@ function App() {
           </div>
           <Footer />
         </div>
-      ) : (
-        <div className="z-10">
-          <div className="bg-blen h-screen px-4 py-5 flex over:opacity-100 ">
-            <div className="flex">
-              <div className="text-slate-400 ml-1 text-4xl logo border-2 border-slate-400 circle fixed">B</div>
+      ) : ( */}
+      <div className="h-screen">
+        <div className="bg-blen h-screen items-center justify-center px-4 py-5 flex over:opacity-100 ">
+          <div className="flex align-items">
+            <div to="/#home" className="text-slate-400 justify-center text-center text-big w-bb h-bb rounded-full border-8 border-slate-400 border:rounded-full focus:border-slate-400 focus:text-slate-400 ">
+              B
             </div>
+            {/* <img src={logo} alt="B logo" /> */}
           </div>
         </div>
-      )}
+      </div>
+      {/* )} */}
     </>
   );
 }

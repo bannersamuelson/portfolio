@@ -5,6 +5,12 @@ module.exports = {
   theme: {
 
     extend: {
+      fontSize: {
+        'big': '15rem',
+      },
+      height: {
+        'bb': '21',
+      },
       colors: {
         // Configure your color palette here
         'blen': '#000',
