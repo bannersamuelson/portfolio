@@ -1,0 +1,43 @@
+ /* loading B gif */
+ .loadingScreen {
+  background-image: url(https://media4.giphy.com/media/kUPBrywuioXBLRK1P4/giphy.gif?cid=ecf05e47lbz8ywrtudqxeu6kplawiaiqlr849087q5lxy02h&rid=giphy.gif&ct=g);
+  background-size: fit;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  height: 300px
+
+  }
+
+  /* loading text */
+  .element {
+    width: 100%;
+    height: 100%;
+    animation: pulse 1s infinite;
+  }
+
+  .element2 {
+    width: 100%;
+    height: 100%;
+    animation: pulse 1s infinite;
+    animation-delay: 250ms;
+  }
+
+  .element3 {
+    width: 100%;
+    height: 100%;
+    animation: pulse 1s infinite;
+    animation-delay: 500ms;
+  }
+
+  @keyframes pulse {
+    0% {
+      color: #fafafa;
+    }
+    100% {
+      color: #171717;
+    }
+  }
+ 
+  

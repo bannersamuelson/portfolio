@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="text-center w-full text-white bg-banner">
+    <footer className="text-center w-full text-white bg-neutral-900">
       <div className="w-full pt-9">
         <div className="flex w-full justify-center">
           {/* LinkedIn */}
-          <a className=" text-slate-400 hover:text-slate-50 mx-4" target="_blank" href="https://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
+          <a className=" text-neutral-400 hover:text-slate-50 mx-4" target="_blank" href="https://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -24,7 +24,7 @@ export default function Footer() {
             </svg>
           </a>
           {/* instagram */}
-          <a href="https://www.instagram.com/itsbanner/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-slate-50 mx-4">
+          <a href="https://www.instagram.com/itsbanner/" target="_blank" rel="noreferrer" className="text-neutral-400 hover:text-slate-50 mx-4">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -42,7 +42,7 @@ export default function Footer() {
             </svg>
           </a>
           {/* facebook */}
-          <a href="https://www.facebook.com/banner.samuelson/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-slate-50 mx-4">
+          <a href="https://www.facebook.com/banner.samuelson/" target="_blank" rel="noreferrer" className="text-neutral-400 hover:text-neutral-50 mx-4">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -60,7 +60,7 @@ export default function Footer() {
             </svg>
           </a>
           {/* Github */}
-          <a href="https://github.com/bannersamuelson/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-slate-50 mx-4">
+          <a href="https://github.com/bannersamuelson/" target="_blank" rel="noreferrer" className="text-neutral-400 hover:text-neutral-50 mx-4">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -80,9 +80,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="text-center text-neutral-900 p-4">
+      <div className="text-center text-neutral-800 p-4">
         © 2022:
-        <span className="text-slate-700">Banner Samuelson</span>
+        <span className="text-neutral-700">Banner Samuelson</span>
       </div>
     </footer>
 
