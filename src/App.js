@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      {/* {loading === false ? (
+      {loading === false ? (
         <div>
           <Home />
           <Buttons />
@@ -32,27 +32,27 @@ function App() {
           </div>
           <Footer />
         </div>
-      ) : ( */}
-      <div className="h-screen">
-        <div className="bg-blen h-screen items-center justify-center px-4 pt-24 over:opacity-100 ">
-          <div className="align-items">
-            <div className="text-slate-50 grid justify-center text-big ">
-              <div className="loadingScreen">B</div>
+      ) : (
+        <div className="h-screen">
+          <div className="bg-blen h-screen items-center justify-center px-4 pt-24 over:opacity-100 ">
+            <div className="align-items">
+              <div className="text-slate-50 grid justify-center text-big ">
+                <div className="loadingScreen">B</div>
 
-              <div className="loadingLetter text-center text-2xl">
-                <div className="text-2xl flex">
-                  Loading
-                  <div className="element">.</div>
-                  <div className="element2">.</div>
-                  <div className="element3">.</div>
+                <div className="loadingLetter text-center text-2xl">
+                  <div className="text-2xl flex">
+                    Loading
+                    <div className="element">.</div>
+                    <div className="element2">.</div>
+                    <div className="element3">.</div>
+                  </div>
                 </div>
               </div>
+
             </div>
-            {/* <img src={logo} alt="B logo" /> */}
           </div>
         </div>
-      </div>
-      {/* )} */}
+      )}
     </>
   );
 }
