@@ -30,7 +30,6 @@ export default function Projects() {
           </div>
 
           {/* local store */}
-
           <img src={local} alt="life after ga" className="mx-auto h-64 lg:h-max" />
           <div className="mt-8 lg:mt-16 xl:mt-24 flex items-center lg:items-start flex-col px-24 lg:px-0 md:px-14 lg:pr-36">
             <span className="text-4xl pb-1 text-slate-50">Supporting Local<br /></span>
