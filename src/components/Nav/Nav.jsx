@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { HashLink } from 'react-router-hash-link';
 import Logo from '../../images/Logo_REV.png'
-import './Nav.css'
+
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +14,7 @@ function Nav() {
       <nav>
         <div className="px-4 pt-4 flex justify-between over:opacity-100 ">
           <div className="flex items-center">
-            <HashLink to="/#home" className="text-slate-50 ml-1 w-16 text-4xl logo circle fixed"><img src={Logo} alt="logo" /></HashLink>
+            <HashLink to="/#home" className="text-slate-50 ml-1 w-bb text-4xl logo circle fixed"><img src={Logo} alt="logo" /></HashLink>
           </div>
           <div className="px-4 py-1 pt-1 hidden md:block align-center">
             <div className="align-center items-center ml-10 text-lg text-slate-50 space-x-4 flex">

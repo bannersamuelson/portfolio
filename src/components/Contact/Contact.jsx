@@ -4,12 +4,14 @@ import { useState } from 'react';
 
 export default function Contact() {
 
+  const [buttonText, setButtonText] = useState("Send Email");
   const [toSend, setToSend] = useState({
     from_name: '',
     to_name: 'Banner',
     message: '',
     reply_to: '',
   });
+
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -25,7 +27,19 @@ export default function Contact() {
       .catch((err) => {
         console.log('FAILED...', err);
       });
+
+    setToSend({
+      from_name: '',
+      to_name: 'Banner',
+      message: '',
+      reply_to: '',
+    })
+
+    setButtonText("Sent!")
+
+
   };
+
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
@@ -105,6 +119,7 @@ export default function Contact() {
                       placeholder='Full name'
                       value={toSend.from_name}
                       onChange={handleChange}
+                      required
                       className="focus:placeholder-transparent block appearance-none bg-zinc-900 placeholder-slate-400 rounded-md w-full py-3 px-4 text-slate-50 leading-5 focus:outline-none" />
                   </div>
 
@@ -115,6 +130,7 @@ export default function Contact() {
                       placeholder='Your email'
                       value={toSend.reply_to}
                       onChange={handleChange}
+                      required
                       className="focus:placeholder-transparent block appearance-none bg-zinc-900 placeholder-slate-400 rounded-md w-full py-3 px-4 text-slate-50 leading-5 focus:outline-none" />
                   </div>
 
@@ -126,13 +142,14 @@ export default function Contact() {
                       placeholder='Message'
                       value={toSend.message}
                       onChange={handleChange}
+                      required
                       className="bg-zinc-900 resize-none  block appearance-none placeholder-slate-400 placeholder-opacity-100 rounded-md w-full py-3 px-4 text-slate-50 leading-5 h-56 focus:outline-none focus:placeholder-transparent"></textarea>
                   </div>
                   <div className="pt-4">
                     <button
                       type="submit"
                       className="resize-none flex justify-center bg-rose-700 border-2 border-rose-700   hover:bg-rose-900 text-white font-bold py-2 px-4 rounded text-lg">
-                      Send email
+                      {buttonText}
                     </button>
                   </div>
                 </form>

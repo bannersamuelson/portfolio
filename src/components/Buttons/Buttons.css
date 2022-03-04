@@ -49,7 +49,7 @@ nav li:focus {
 
 .hovertext:hover li {
   background-color: #be123c;
-  box-shadow: 0 0 5px 5px  #be123c;
+  box-shadow: 0 0 2px 2px  #be123c;
 }
 
 

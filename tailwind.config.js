@@ -6,13 +6,11 @@ module.exports = {
 
     extend: {
       fontSize: {
-        'big': '17rem',
+        'big': '20rem',
       },
-      height: {
-        'bb': '21rem',
-      },
+
       width: {
-        'bb': '21rem',
+        'bb': '3rem',
       },
       colors: {
         // Configure your color palette here
@@ -21,7 +19,7 @@ module.exports = {
         'banner': '#080517',
       },
       backgroundImage: {
-        'waves': "url('../src/images/Bg.jpeg')",
+        'waves': "url('../src/images/waves.jpg')",
       },
     },
     plugins: [],

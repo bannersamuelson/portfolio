@@ -5,6 +5,7 @@ import Contact from './components/Contact/Contact';
 import Buttons from './components/Buttons/Buttons';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
+import Curve from "./components/Curve/Curve";
 import './App.css'
 import Loader from "./components/Loader/Loader";
 
@@ -31,7 +32,9 @@ function App() {
             <About />
             <Contact />
           </div>
+          <Curve />
           <Footer />
+
         </div>
       ) : (
         <Loader />
