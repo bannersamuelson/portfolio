@@ -6,8 +6,8 @@
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  height: 300px
-
+  height: 300px;
+font-family: 'Quantify'
   }
 
   /* loading text */

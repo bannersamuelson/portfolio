@@ -38,12 +38,11 @@
 .animate-charcter
 {
   display: inline-block;
-  font-family: Quantify;
+  font-family: -apple-system, BlinkMacSystemFont, 'Fira Sans', 'Quantify','Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Droid Sans', 'Helvetica Neue',
 }
 
-.quantify {
-  font-family: Quantify;
-}
+
 
 @keyframes textclip {
   to {
