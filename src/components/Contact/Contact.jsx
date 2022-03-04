@@ -46,9 +46,9 @@ export default function Contact() {
                 </h1>
 
                 <div className="flex items-center mt-8 text-gray-600 dark:text-gray-400">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" className="w-8 h-8 text-gray-500">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" className="w-8 h-8 text-gray-500">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                   <div className="ml-4 text-md tracking-wide font-semibold w-40">
                     Washington, DC Metro-Area
@@ -56,8 +56,8 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-center mt-2 text-gray-600 dark:text-gray-400">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" className="w h-8 text-gray-500">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" className="w h-8 text-gray-500">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
 
                   <div className="ml-4 hover:text-slate-50 text-md tracking-wide font-semibold">
@@ -68,7 +68,7 @@ export default function Contact() {
                   <div className="pl-2 px-1 hover:cursor-pointer text-slate-50 opacity-75 hover:opacity-100">
                     <a target="_blank" href="https://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
                       <svg
-                        class="w-5 h-5 fill-current"
+                        className="w-5 h-5 fill-current"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512">
                         <path

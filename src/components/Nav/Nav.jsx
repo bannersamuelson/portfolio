@@ -69,7 +69,7 @@ function Nav() {
                   <div className="pl-2 px-1 hover:cursor-pointer text-slate-50 opacity-75 hover:opacity-100">
                     <a target="_blank" href="https://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
                       <svg
-                        class="w-5 h-5 fill-current"
+                        className="w-5 h-5 fill-current"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512">
                         <path

@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer class="text-center w-full text-white bg-banner">
-      <div class="w-full pt-9">
-        <div class="flex w-full justify-center">
+    <footer className="text-center w-full text-white bg-banner">
+      <div className="w-full pt-9">
+        <div className="flex w-full justify-center">
           {/* LinkedIn */}
           <a className=" text-slate-400 hover:text-slate-50 mx-4" target="_blank" href="https://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
             <svg
@@ -12,7 +12,7 @@ export default function Footer() {
               focusable="false"
               data-prefix="fab"
               data-icon="linkedin-in"
-              class="svg-inline--fa fa-linkedin-in w-3.5"
+              className="svg-inline--fa fa-linkedin-in w-3.5"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -30,7 +30,7 @@ export default function Footer() {
               focusable="false"
               data-prefix="fab"
               data-icon="instagram"
-              class="svg-inline--fa fa-instagram w-3.5"
+              className="svg-inline--fa fa-instagram w-3.5"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -48,7 +48,7 @@ export default function Footer() {
               focusable="false"
               data-prefix="fab"
               data-icon="facebook-f"
-              class="svg-inline--fa fa-facebook-f w-2.5"
+              className="svg-inline--fa fa-facebook-f w-2.5"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 320 512"
@@ -66,7 +66,7 @@ export default function Footer() {
               focusable="false"
               data-prefix="fab"
               data-icon="github"
-              class="svg-inline--fa fa-github w-4"
+              className="svg-inline--fa fa-github w-4"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
@@ -80,7 +80,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div class="text-center text-slate-800 p-4">
+      <div className="text-center text-slate-800 p-4">
         © 2022:
         <span className="text-slate-700">Banner Samuelson</span>
       </div>
