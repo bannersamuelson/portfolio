@@ -13,7 +13,7 @@ export default function Home() {
             <span className="block text-slate-50">  Banner</span>
           </h3>
 
-          <div className="quantify flex justify-center fade-in-text text-slate-200 text-3xl mt-8">Software Developer
+          <div className="quantify flex justify-center fade-in-text text-neutral-300 text-2xl mt-4 font-light">Software Developer
           </div >
 
         </div>

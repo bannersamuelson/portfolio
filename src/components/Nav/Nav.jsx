@@ -6,7 +6,7 @@ import Logo from '../../images/Logo_REV.png'
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
-  const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-gray-300 transition ease transform duration-300`;
+  const genericHamburgerLine = `h-1 w-9 rounded-xl my-1 bg-gray-300 transition ease transform duration-300`;
 
 
   return (
@@ -31,23 +31,23 @@ function Nav() {
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
-              className="flex flex-col h-12 w-12 border-2 border-transparent rounded justify-center items-center group border-opacity-100 hover:border-white hover:border-opacity-100" aria-controls="mobile-menu"
+              className="flex flex-col h-12 w-12 border-2 border-transparent rounded justify-center items-center group " aria-controls="mobile-menu"
               aria-expanded="false"
             >
               <div
                 className={`${genericHamburgerLine} ${isOpen
                   ? "rotate-45 translate-y-3 opacity-75 group-hover:opacity-100"
-                  : "opacity-75 group-hover:opacity-100"
+                  : "group-hover:opacity-100"
                   }`}
               />
               <div
-                className={`${genericHamburgerLine} ${isOpen ? "opacity-0" : "opacity-75 group-hover:opacity-100"
+                className={`${genericHamburgerLine} ${isOpen ? "opacity-0" : " group-hover:opacity-100"
                   }`}
               />
               <div
                 className={`${genericHamburgerLine} ${isOpen
                   ? "-rotate-45 -translate-y-3 opacity-75 group-hover:opacity-100"
-                  : "opacity-75 group-hover:opacity-100"
+                  : "group-hover:opacity-100"
                   }`}
               />
             </button>
