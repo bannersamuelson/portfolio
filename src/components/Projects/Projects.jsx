@@ -1,18 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import laga from '../../images/laga2.png'
 import local from '../../images/local.png'
 import cevap from '../../images/cevap.png'
 
 
 export default function Projects() {
-
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-  }, []);
 
   return (
     <>
