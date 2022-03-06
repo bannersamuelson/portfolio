@@ -1,6 +1,7 @@
 import React from 'react'
 import { send } from 'emailjs-com';
 import { useState } from 'react';
+import pdf from '../../resume/Banner_Samuelson_Resume.pdf'
 
 export default function Contact() {
 
@@ -107,11 +108,20 @@ export default function Contact() {
                     </a>
                   </div>
                 </div>
-
+                <div className="pb-14 pt-4 mx-14 lg:mx-4 grid grid-cols-1 md:grid-cols-2">
+                  <div className="flex justify-center">
+                    <a className="w-44 md:w-60 my-4 mx-2 px-1 flex justify-center bg-rose-700 border-2 border-rose-700 hover:bg-rose-900 text-slate-50 font-bold rounded text-sm py-2" href={pdf} target="_blank" rel="noreferrer">
+                      DOWNLOAD RESUME
+                    </a>
+                  </div>
+                  <div className="flex justify-center">
+                    <a className="w-44 md:w-60 my-4 mx-2 flex justify-center bg-slate-400 border-2 border-slate-400 hover:bg-slate-700 text-slate-50 font-bold rounded text-sm py-2" href="mailto:bannersamuelson@gmail.com">HIRE ME</a>
+                  </div>
+                </div>
 
                 <form
                   onSubmit={onSubmit}
-                  className="pt-14 justify-center items-center bg-blen">
+                  className="justify-center items-center bg-blen">
                   <div className="py-3">
                     <input
                       type='text'
