@@ -1,7 +1,7 @@
 import React from 'react'
 import { send } from 'emailjs-com';
 import { useState } from 'react';
-import pdf from '../../resume/Banner_Samuelson_Resume.pdf'
+
 
 export default function Contact() {
 
