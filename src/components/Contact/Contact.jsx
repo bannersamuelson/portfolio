@@ -142,7 +142,9 @@ export default function Contact() {
                   </div>
                 </div>
                 <div className="flex justify-center pb-14 mx-14 lg:mx-4">
-                  <a className="w-44 md:w-60 my-4 mx-2 px-1 flex justify-center hover:text-slate-50 text-rose-700 font-bold rounded text-sm py-2" href={pdf} target="_blank" rel="noreferrer">
+                  <a className="w-44 md:w-60 my-4 mx-2 px-1 flex justify-center hover:text-slate-50 text-rose-700 font-bold rounded text-sm py-2
+                 border-2 border-transparent focus:text-slate-200 hover:border-slate-50 m-1"
+                    href={pdf} target="_blank" rel="noreferrer">
                     DOWNLOAD RESUME
                   </a>
 
