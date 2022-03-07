@@ -1,11 +1,10 @@
 import React from 'react'
 import profile from '../../images/profile.png'
 import pdf from '../../resume/Banner_Samuelson_Resume.pdf'
-
 export default function About() {
   return (
-    <div id="about" className="bg-blen pt-6">
-      <span className="pb-14 pt-4 flex justify-center text-5xl text-rose-700">About</span>
+    <div id="about" className="bg-blen pt-7">
+      <span className="pb-24 pt-4 flex justify-center text-5xl text-rose-700">About</span>
 
       <img className="flex mb-14 mx-auto justify-center rounded-full h-80" src={profile} alt=" banner samuelson profile" />
 
