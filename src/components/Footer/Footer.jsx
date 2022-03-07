@@ -80,9 +80,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="text-center text-neutral-800 p-4">
+      <div className="text-center text-neutral-600 p-4">
         © 2022:
-        <span className="text-neutral-700">Banner Samuelson</span>
+        <span className="text-neutral-500">Banner Samuelson</span>
       </div>
     </footer>
 
