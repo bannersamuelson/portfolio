@@ -1,5 +1,5 @@
-import React from "react";
-import laga from '../../images/laga2.png'
+import { Suspense } from "react";
+// import laga from '/laga.png'
 import local from '../../images/local.png'
 import cevap from '../../images/cevap.png'
 
@@ -7,7 +7,7 @@ import cevap from '../../images/cevap.png'
 export default function Projects() {
 
   return (
-    <>
+    <div className="bg-blen">
       <div id="projects" className="bg-blen">
         <span className="pb-14 pt-4 flex justify-center text-5xl text-rose-700">PROJECTS</span>
 
@@ -16,9 +16,11 @@ export default function Projects() {
 
 
             {/* laga project */}
-            <div>
-              <img src={laga} alt="life after ga" className="mx-auto h-64 lg:h-auto" />
-            </div>
+            <Suspense fallback={<div>...Loading</div>}>
+              <div>
+                <img src="/laga.png" alt="life after ga" className="mx-auto h-64 lg:h-auto" />
+              </div>
+            </Suspense>
             <div className="flex text-center lg:text-left">
               <div className="mt-8 lg:mt-16 xl:mt-24 flex items-center lg:items-start flex-col px-14 lg:px-0 md:px-14 lg:pr-36">
                 <span className="text-4xl pb-1 text-slate-50">Life After General Assembly<br /></span>
@@ -32,7 +34,12 @@ export default function Projects() {
             </div>
 
             {/* local store */}
-            <img src={local} alt="life after ga" className="mx-auto h-64 lg:h-auto" />
+            <Suspense fallback={<div>...Loading</div>}>
+
+              <img src={local} alt="life after ga" className="mx-auto h-64 lg:h-auto" />
+
+            </Suspense>
+
             <div className="text-center lg:text-left mt-8 lg:mt-16 xl:mt-24 flex items-center lg:items-start flex-col px-14 lg:px-0 md:px-14 lg:pr-36">
               <span className="text-4xl pb-1 text-slate-50">Supporting Local<br /></span>
               <span className="text-slate-400 text-lg pb-6">Netlify, MongoDB, MongoDB, Express, TailwindCSS </span>
@@ -61,6 +68,6 @@ export default function Projects() {
         </div >
       </div>
 
-    </>
+    </div>
   )
 }
