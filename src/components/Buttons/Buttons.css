@@ -53,7 +53,7 @@ nav li:focus {
 }
 
 .hovertext:focus li {
-  background-color:#ffffffa2;
+  background-color:hsl(0, 0%, 97%);
 }
 
 
