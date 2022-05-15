@@ -1,6 +1,6 @@
 import React from 'react'
 import profile from '../../images/profile.png'
-import pdf from '../../resume/Banner_Samuelson_Resume.pdf'
+import pdf from '../../resume/BANNERSAMUELSON.pdf'
 export default function About() {
   return (
     <div id="about" className="bg-blen pt-7">
