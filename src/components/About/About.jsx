@@ -9,7 +9,7 @@ export default function About() {
       <img className="flex mb-14 mx-auto justify-center rounded-full h-80" src={profile} alt=" banner samuelson profile" />
 
       <p className="text-center mx-auto flex px-20 text-slate-300">
-        <br />  I am a Software Engineer born and raised in Pennsylvania. I recently moved to the DMV area to pursue better opportunites relating to the field of software development. My speciality is Front-End design and layout implementations relating to UX/UI design. I love to code and make webpages that push the industry standard.
+        <br /> My speciality is Front-End design and layout implementations relating to UX/UI design. I love to code and make webpages that push the industry standard.
       </p>
 
 
