@@ -14,7 +14,7 @@ nav li {
   cursor: pointer;
   transition: .5s;
   z-index: 4;
-  
+
 }
 
 nav li:focus {
@@ -32,14 +32,13 @@ nav li:focus {
   opacity: 0;
   padding-right: 3rem;
   background-color: transparent;
-  color: #f8fafc;
+  color: #cbcbcb;
   text-align: center;
   transition: opacity 1s ease-in-out;
   position: absolute;
   z-index: 0;
   right: 0;
   top: 5px
-
 }
 
 .hovertext:hover:before {
@@ -48,12 +47,10 @@ nav li:focus {
 }
 
 .hovertext:hover li {
-  background-color: #be123c;
-  box-shadow: 0 0 2px 2px  #be123c;
+  background-color: #cbcbcb;
+  box-shadow: 0 0 2px 2px #cbcbcb;
 }
 
 .hovertext:focus li {
-  background-color:hsl(0, 0%, 97%);
+  background-color: hsl(0, 0%, 97%);
 }
-
-

@@ -14,12 +14,13 @@ module.exports = {
       },
       colors: {
         // Configure your color palette here
-        'blen': '#000',
+        'blen': '#fff',
         'reddy': '#2c0615',
         'banner': '#080517',
+        'gry': '#cbcbcb'
       },
       backgroundImage: {
-        'waves': "url('../src/images/waves.jpg')",
+        'waves': "url('../src/images/white.jpg')",
       },
     },
     plugins: [],

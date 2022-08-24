@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="text-center w-full text-white bg-neutral-900">
+    <footer className="text-center w-full text-white bg-gry">
       <div className="w-full pt-9">
         <div className="flex w-full justify-center">
           {/* LinkedIn */}
