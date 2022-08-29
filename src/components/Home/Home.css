@@ -1,196 +1,30 @@
-/* .fade-in-text {
-  display: inline-block;
-  animation: fadeIn linear 4s;
-  -webkit-animation: fadeIn linear 4s;
-  -moz-animation: fadeIn linear 4s;
-  -o-animation: fadeIn linear 4s;
-  -ms-animation: fadeIn linear 4s;
-
-} */
-
-/* @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-} */
-
-/* @-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-} */
-
-/* @-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-} */
-
-/* NAME */
-
-/* .animate-charcter {
+.animate-charcter {
   display: inline-block;
   font-family: -apple-system, BlinkMacSystemFont, 'Fira Sans', 'Quantify', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Droid Sans', 'Helvetica Neue',
-} */
-
-
-/* @keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-} */
-
-/* .box {
-  width: 500px;
-  height: 100px;
-  border: solid 5px #000;
-  border-color: transparent transparent #000 transparent;
-  border-radius: 0 0 240px 50%/60px;
-} */
-
-
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-h1 {
-  color: #333;
-  font-size: 3rem;
-  font-weight: 100;
-  line-height: 1.5;
-  text-transform: uppercase;
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
-  width: 800px;
-}
+h1 span::before {
+  content: '';
 
-
-.message {
-  background-color: yellow;
-  color: #333;
-  display: block;
-  font-weight: 900;
-  overflow: hidden;
+  animation: profile 10s infinite;
   position: absolute;
-  padding-left: 0.5rem;
-  top: 0.2rem;
-  left: 270px;
-  animation: openclose 5s ease-in-out infinite;
 }
 
-
-@keyframes openclose {
+@keyframes profile {
   0% {
-    top: 0.2rem;
-    width: 0;
+    content: 'UX Designer'
   }
 
-  5% {
-    width: 0;
+  50% {
+    content: 'Frontend Developer'
   }
 
-  15% {
-    width: 400px;
-  }
-
-  30% {
-    top: 0.2rem;
-    width: 400px;
-  }
-
-  33% {
-    top: 0.2rem;
-    width: 0;
-  }
-
-  35% {
-    top: 0.2rem;
-    width: 0;
-  }
-
-  38% {
-    top: -4.5rem;
-
-  }
-
-  48% {
-    top: -4.5rem;
-    width: 400px;
-  }
-
-  62% {
-    top: -4.5rem;
-    width: 285;
-  }
-
-  66% {
-    top: -4.5rem;
-    width: 0;
-    text-indent: 0;
-  }
-
-  71% {
-    top: -9rem;
-    width: 0;
-    text-indent: 5px;
-  }
-
-  86% {
-    top: -9rem;
-    width: 285px;
-  }
-
-  95% {
-    top: -9rem;
-    width: 285px;
-  }
-
-  98% {
-    top: -9rem;
-    width: 0;
-    text-indent: 5px;
+  75% {
+    content: 'Product Designer'
   }
 
   100% {
-    top: 0;
-    width: 0;
-    text-indent: 0;
+    content: 'UI Designer'
   }
 }

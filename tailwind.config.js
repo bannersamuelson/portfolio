@@ -17,7 +17,7 @@ module.exports = {
         'blen': '#fff',
         'reddy': '#2c0615',
         'banner': '#080517',
-        'gry': '#cbcbcb'
+        'yellow': '#FFFF0A'
       },
       backgroundImage: {
         'waves': "url('../src/images/waves.jpg')",

@@ -7,31 +7,23 @@ export default function Home() {
   return (
     <div id="home" className="bg-waves bg-cover">
       <Nav />
-      <div className="w-full">
-        <div className="grid grid-columns-3 justify-center pt-56 pb-24">
-          <h3 id="name" className="text-6xl lg:text-7xl animate-charcter text-slate-50">Hello.<span className="block text-slate-50">  I am </span>
-     
+      <div className="w-full px-24 pt-4 pb-44">
+        <div className="grid grid-columns-3 justify-left pt-56">
+          <h3 id="name" className="text-5xl lg:text-9xl animate-charcter text-slate-50">Hello.
           </h3>
 
-          <h1 class="movingMords">
-            <div class="message block">
-              <div class="word1">UX UI</div>
-              <div class="word2">DESGINER</div>
-              <div class="word3">Developer</div>
-            </div>
-            <span className="block text-slate-50">Banner</span>
-          </h1>
-
-          {/* <div className="quantify flex justify-center fade-in-text text-slate-500 text-2xl mt-4 font-light">UX | UI | FRONTEND
-          </div > */}
 
         </div>
+        <div className="pb-24 grid grid-columns-3 justify-left">
+          I am
+          <h1 className="text-slate-50 text-3xl
+           lg:text-6xl">
+            I am
+            <span className="px-4 text-3xl text-yellow lg:text-6xl"></span></h1>
+        </div>
       </div>
-      <div className="curved-div">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          {/* <path fill="#fff" fillOpacity="1" d="M0,128L48,106.7C96,85,192,43,288,69.3C384,96,480,192,576,224C672,256,768,224,864,202.7C960,181,1056,171,1152,181.3C1248,192,1344,224,1392,240L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path> */}
-        </svg>
-      </div>
+
+
     </div >
   )
 }
