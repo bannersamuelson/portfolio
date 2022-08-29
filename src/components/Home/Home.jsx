@@ -10,11 +10,20 @@ export default function Home() {
       <div className="w-full">
         <div className="grid grid-columns-3 justify-center pt-56 pb-24">
           <h3 id="name" className="text-6xl lg:text-7xl animate-charcter text-slate-50">Hello.<span className="block text-slate-50">  I am </span>
-            <span className="block text-slate-50">  Banner</span>
+     
           </h3>
 
-          <div className="quantify flex justify-center fade-in-text text-slate-500 text-2xl mt-4 font-light">UX | UI | FRONTEND
-          </div >
+          <h1 class="movingMords">
+            <div class="message block">
+              <div class="word1">UX UI</div>
+              <div class="word2">DESGINER</div>
+              <div class="word3">Developer</div>
+            </div>
+            <span className="block text-slate-50">Banner</span>
+          </h1>
+
+          {/* <div className="quantify flex justify-center fade-in-text text-slate-500 text-2xl mt-4 font-light">UX | UI | FRONTEND
+          </div > */}
 
         </div>
       </div>
