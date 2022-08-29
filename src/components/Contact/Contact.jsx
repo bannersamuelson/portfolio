@@ -101,7 +101,7 @@ export default function Contact() {
                   <div className="pt-4">
                     <button
                       type="submit"
-                      className="mb-24 resize-none flex justify-center bg-blue-500 hover:bg-blue-600 text-slate-50 font-bold py-2 px-4 rounded text-lg">
+                      className="mb-24 resize-none flex justify-center bg-yellow hover:bg-yellow2 text-slate-900 font-bold py-2 px-4 rounded text-lg">
                       {buttonText}
                     </button>
                   </div>

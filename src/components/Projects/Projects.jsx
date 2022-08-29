@@ -29,7 +29,7 @@ export default function Projects() {
                   Full stack application, that allows users to create, review, update and edit reviews and resource links for educational purposes. Created to help students communcaite and categorize resources to assist with software engineering jobs.
                 </span>
                 <br />
-                <a className="text-slate-50 mb-14 rounded-md hover:bg-blue-600 p-2 w-36 lg:mt-8 lg:w-36 bg-blue-500  flex justify-center" href="https://silly-kowalevski-1591fc.netlify.app/" target="_blank" rel="noreferrer">VISIT SITE</a>
+                <a className="text-slate-900 font-bold mb-14 rounded-md hover:bg-yellow2 p-2 w-36 lg:mt-8 lg:w-36 bg-yellow flex justify-center" href="https://silly-kowalevski-1591fc.netlify.app/" target="_blank" rel="noreferrer">VISIT SITE</a>
               </div>
             </div>
 
@@ -48,7 +48,7 @@ export default function Projects() {
                 Used to find all the favorite spots in the DMV for the locals and tourists alike.
               </span>
               <br />
-              <a className="text-slate-50 mb-14 rounded-md hover:bg-blue-600 p-2 w-36 lg:mt-8 lg:w-36 bg-blue-500  flex justify-center" href="https://pensive-stonebraker-9e126d.netlify.app/" target="_blank" rel="noreferrer">VISIT SITE</a>
+              <a className="text-slate-900 mb-14 rounded-md p-2 w-36 lg:mt-8 lg:w-36 bg-yellow flex font-bold justify-center" href="https://pensive-stonebraker-9e126d.netlify.app/" target="_blank" rel="noreferrer">VISIT SITE</a>
             </div>
             {/* Cevap */}
             {/* local store */}
@@ -60,7 +60,7 @@ export default function Projects() {
                 Front-End app that helps users find computer and video game information. Full game API used for all your gaming favorites.
               </span>
               <br />
-              <a className="text-slate-50 mb-14 rounded-md hover:bg-blue-600 p-2 w-36 lg:mt-8 lg:w-36 bg-blue-500  flex justify-center" href="https://bannersamuelson.github.io/Cevap-Game-Finder/" target="_blank" rel="noreferrer">VISIT SITE</a>
+              <a className="text-slate-900 mb-14 rounded-md font-bold hover:bg-yellow2 p-2 w-36 lg:mt-8 lg:w-36 bg-yellow flex justify-center" href="https://bannersamuelson.github.io/Cevap-Game-Finder/" target="_blank" rel="noreferrer">VISIT SITE</a>
             </div>
 
 
