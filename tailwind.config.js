@@ -20,7 +20,7 @@ module.exports = {
         'gry': '#cbcbcb'
       },
       backgroundImage: {
-        'waves': "url('../src/images/white.jpg')",
+        'waves': "url('../src/images/waves.jpg')",
       },
     },
     plugins: [],

@@ -3,13 +3,13 @@ import profile from '../../images/profile.png'
 import pdf from '../../resume/BANNERSAMUELSON.pdf'
 export default function About() {
   return (
-    <div id="about" className="bg-blen pt-7">
-      <span className="pb-24 pt-4 flex justify-center text-5xl text-rose-700">About</span>
+    <div id="about" className="bg-black pt-7">
+      <span className="pb-24 pt-4 flex justify-center text-5xl text-slate-500">About</span>
 
       <img className="flex mb-14 mx-auto justify-center rounded-full h-80" src={profile} alt=" banner samuelson profile" />
 
       <p className="text-center mx-auto flex px-20 text-slate-300">
-        <br /> My speciality is Front-End design and layout implementations relating to UX/UI design. I love to code and make webpages that push the industry standard.
+        <br /> My speciality is Front-End design and layout implementations. Google Ceritication in UX UI, General Assembly Bootcamp graudate. Pursuing Bachelors in Computer Science.
       </p>
 
 
@@ -48,8 +48,8 @@ export default function About() {
         </div>
       </div>
       <div className="flex justify-center pb-14 mx-14 lg:mx-4">
-        <a className="w-44 md:w-60 my-4 mx-2 px-1 flex justify-center hover:text-slate-50 text-rose-700 font-bold rounded text-sm py-2
-                 border-2 border-transparent focus:text-slate-200 hover:border-slate-50 m-1"
+        <a className="w-44 md:w-60 my-4 mx-2 px-1 flex justify-center hover:text-slate-50 text-slate-500 font-bold rounded text-sm py-2
+                 focus:text-slate-50"
           href={pdf} target="_blank" rel="noreferrer">
           DOWNLOAD RESUME
         </a>

@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="text-center w-full text-white bg-gry">
+    <footer className="text-center w-full text-slate-50 bg-zinc-900">
       <div className="w-full pt-9">
         <div className="flex w-full justify-center">
           {/* LinkedIn */}
-          <a className=" text-neutral-400 hover:text-slate-50 mx-4" target="_blank" href="https://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
+          <a className=" text-slate-400 hover:text-slate-50 mx-4" target="_blank" href="https://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
             <svg
               aria-hidden="true"
               focusable="false"

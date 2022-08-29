@@ -9,8 +9,8 @@ export default function Home() {
       <Nav />
       <div className="w-full">
         <div className="grid grid-columns-3 justify-center pt-56 pb-24">
-          <h3 id="name" className="text-6xl lg:text-7xl animate-charcter text-slate-50">Hello.<span className="block text-slate-500">  I am </span>
-            <span className="block text-slate-500">  Banner</span>
+          <h3 id="name" className="text-6xl lg:text-7xl animate-charcter text-slate-50">Hello.<span className="block text-slate-50">  I am </span>
+            <span className="block text-slate-50">  Banner</span>
           </h3>
 
           <div className="quantify flex justify-center fade-in-text text-slate-500 text-2xl mt-4 font-light">UX | UI | FRONTEND

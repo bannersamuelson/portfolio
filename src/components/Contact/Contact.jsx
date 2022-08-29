@@ -51,20 +51,20 @@ export default function Contact() {
   return (
     <div className="z-2" id="contact">
 
-      <div className="flex justify-center bg-blen sm:items-center sm:pt-0 pb-44">
+      <div className="flex justify-center bg-black sm:items-center sm:pt-0 pb-44">
 
         <div className="w-11/12 max-w-6xl md:px-24 xl:pr-24">
           <div className="mt-8 overflow-hidden">
             <div className="grid grid-cols-1">
 
-              <div className="rounded-2xl p-14 md:p-0 mb-14 bg-blen">
-                <span className="pb-14 pt-4 flex justify-center text-5xl text-rose-700">Contact</span>
-                <h1 className="text-4xl sm:text-4xl text-rose-700 dark:text-white font-extrabold tracking-tight text-center">
+              <div className="rounded-2xl p-14 md:p-0 mb-14 bg-black">
+                <span className="pb-14 pt-4 flex justify-center text-5xl text-slate-500">Contact</span>
+                <h1 className="text-4xl sm:text-4xl text-slate-500 dark:text-white font-extrabold tracking-tight text-center">
                   Let's work together!
                 </h1>
                 <form
                   onSubmit={onSubmit}
-                  className="pt-14 justify-center items-center bg-blen">
+                  className="pt-14 justify-center items-center bg-black">
                   <div className="py-3">
                     <input
                       type='text'
@@ -101,7 +101,7 @@ export default function Contact() {
                   <div className="pt-4">
                     <button
                       type="submit"
-                      className="mb-24 resize-none flex justify-center bg-rose-700 border-2 border-rose-700   hover:bg-rose-900 text-white font-bold py-2 px-4 rounded text-lg">
+                      className="mb-24 resize-none flex justify-center bg-blue-500 hover:bg-blue-600 text-slate-50 font-bold py-2 px-4 rounded text-lg">
                       {buttonText}
                     </button>
                   </div>
