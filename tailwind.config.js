@@ -16,6 +16,10 @@ module.exports = {
       height: {
         'tall': '22rem',
       },
+      padding: {
+        'pad': '5%',
+
+      },
       colors: {
         // Configure your color palette here
         'blen': '#E8E8E8',

@@ -8,9 +8,12 @@ export default function Projects() {
   return (
     <div className="bg-gradient-to-r from-black to-grey">
 
-      <span className="pb-14 pt-44 bg-inherit flex justify-center text-5xl text-yellow">PROJECTS</span>
+      <span className="pb-14 pt-44 bg-inherit flex justify-center text-5xl text-zinc-600">PROJECTS</span>
 
-      <div class="grid grid-cols-1 md:grid-cols-2
+
+      <div class="px-pad 
+      xl:px-44 
+      grid grid-cols-1 md:grid-cols-2
     xl:grid-cols-3
     p-4
     bg-gradient-to-r from-black to-grey

@@ -4,8 +4,8 @@ import github from '../../images/github.png'
 export default function Icons() {
   return (
     <div id="skills" className="bg-gradient-to-r from-black to-grey bg-cover ">
-      <span className="min-w-full pb-4 pt-24 flex justify-center text-5xl text-yellow">Tech stack</span>
-      <div className="flex items-center">
+      <span className="min-w-full pb-4 pt-24 flex justify-center text-5xl text-zinc-600">TECH STACK</span>
+      <div className="flex items-center xl:px-72">
         <div className="justify-center min-w-full grid grid-cols-2 md:grid-cols-4 p-14">
 
           <img className="mx-auto my-4 h-14 w-14" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" />
