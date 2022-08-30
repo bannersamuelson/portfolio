@@ -11,6 +11,10 @@ module.exports = {
 
       width: {
         'bb': '3rem',
+        'wide': '22rem',
+      },
+      height: {
+        'tall': '22rem',
       },
       colors: {
         // Configure your color palette here
