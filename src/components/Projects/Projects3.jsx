@@ -2,6 +2,7 @@ import React from 'react'
 import github from '../../images/github.png'
 import openArrow from '../../images/open_arrow.png'
 import folder from '../../images/folder.png'
+import figma from '../../images/figma.png'
 
 export default function Projects() {
 
@@ -25,7 +26,14 @@ justify-center
         <div class="w-wide h-tall py-8 rounded-lg p-8 bg-zinc-900">
           <div class="flex justify-between ml-6 pb-6">
             <img src={folder} alt="folder icon" className=" space-between h-11 w-11" />
+            <section class="flex">
 
+
+
+              <img src={figma} alt="github" className="mx-4 h-6 w-6" />
+
+
+            </section>
           </div>
           <h2 class="text-xl pt-8 font-extrabold font-italic dark:text-white">
             Plumbing App
