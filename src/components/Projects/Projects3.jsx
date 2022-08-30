@@ -12,14 +12,31 @@ export default function Projects() {
 
 
       <div class=" 
+      pt-24
+      pb-44
       px-14
       md:px-8
       xl:px-24
-      grid grid-cols-1 md:grid-cols-2
-    xl:grid-cols-3
-    p-4
+flex flex-wrap
+justify-center
     bg-gradient-to-r from-black to-grey
     justify-items-center gap-2.5" id="projects">
+        {/* coming soon card */}
+        <div class="w-wide h-tall py-8 rounded-lg p-8 bg-zinc-900">
+          <div class="flex justify-between ml-6 pb-6">
+            <img src={folder} alt="folder icon" className=" space-between h-11 w-11" />
+
+          </div>
+          <h2 class="text-xl pt-8 font-extrabold font-italic dark:text-white">
+            Plumbing App
+          </h2>
+          <p class="dark:text-slate-200 py-4 text-md">
+            Coming soon - Application wireframe to help users schedule and track maintenace visits | complete with case study
+          </p>
+          <p
+            className="text-slate-400 text-sm pb-6">Figma, Adobe XD
+          </p>
+        </div>
         {/* first card */}
         <div class="w-wide h-tall py-8 rounded-lg p-8 bg-zinc-900">
           <div class="flex justify-between ml-6 pb-6">
