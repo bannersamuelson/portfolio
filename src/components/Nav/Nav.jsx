@@ -28,7 +28,7 @@ function Nav() {
 
 
 
-          <div className="px-1 py-1 flex md:hidden">
+          <div className="px-1 pt-1 flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
