@@ -14,14 +14,14 @@ function Nav() {
       <nav>
         <div className="px-4 pt-4 flex justify-between over:opacity-100 ">
           <div className="flex items-center">
-            <HashLink to="/#home" className="text-slate-500 ml-1 w-bb text-4xl logo circle fixed"><img src={Logo} alt="logo" /></HashLink>
+            <HashLink to="/#home" className="ml-1 w-bb text-4xl logo fixed"><img src={Logo} alt="logo" /></HashLink>
           </div>
           <div className="px-4 py-1 pt-1 hidden md:block align-center">
             <div className="align-center items-center ml-10 text-lg text-slate-50 space-x-4 flex">
-              <HashLink to="/#home" className="text-slate-500 hover:text-slate-50 focus:text-slate-90 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink>
-              <HashLink to="/#projects" className="text-slate-500 hover:text-slate-50  m-1 px-2 py-1 rounded-md font-medium">Projects</HashLink>
-              <HashLink to="/#about" className="text-slate-500 hover:text-slate-50  m-1 px-2 py-1 rounded-md font-medium">About</HashLink>
-              <HashLink to="/#contact" className="text-slate-500 hover:text-slate-50  m-1 px-2 py-1 rounded-md font-medium">Contact</HashLink>
+              <HashLink to="/#home" className="text-white hover:text-yellow focus:text-slate-90 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink>
+              <HashLink to="/#projects" className="text-white hover:text-yellow m-1 px-2 py-1 rounded-md font-medium">Projects</HashLink>
+              <HashLink to="/#about" className="text-white hover:text-yellow m-1 px-2 py-1 rounded-md font-medium">About</HashLink>
+              <HashLink to="/#contact" className="text-white hover:text-yellow  m-1 px-2 py-1 rounded-md font-medium">Contact</HashLink>
             </div>
           </div>
 

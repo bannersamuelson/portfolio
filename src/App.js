@@ -21,23 +21,23 @@ function App() {
 
   return (
     <>
-      {loading === false ? (
-        <div>
-          <Home />
-          <Buttons />
-          <Projects />
 
-          <Icons />
-          <div className="grid grid-cols-1 lg:grid-cols-2">
-            <About />
-            <Contact />
-          </div>
+      <div>
+        <Home />
+        <Buttons />
+        <Projects />
 
-          <Footer />
+        <Icons />
+        <div className="grid grid-cols-1 lg:grid-cols-2">
+          <About />
+          <Contact />
         </div>
-      ) : (
-        <Loader />
-      )}
+
+        <Footer />
+      </div>
+
+      {/* // <Loader /> */}
+
     </>
   );
 }

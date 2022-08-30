@@ -57,8 +57,8 @@ export default function Contact() {
           <div className="mt-8 overflow-hidden">
             <div className="grid grid-cols-1">
 
-              <div className="rounded-2xl p-14 md:p-0 mb-14 bg-black">
-                <span className="pb-14 pt-4 flex justify-center text-5xl text-slate-500">Contact</span>
+              <div className="rounded-2xl p-14 md:pt-4 mb-14 bg-black">
+
                 <h1 className="text-4xl sm:text-4xl text-slate-500 dark:text-white font-extrabold tracking-tight text-center">
                   Let's work together!
                 </h1>

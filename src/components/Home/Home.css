@@ -6,25 +6,20 @@
 
 h1 span::before {
   content: '';
-
-  animation: profile 10s infinite;
+  animation: profile 5s infinite;
   position: absolute;
 }
 
 @keyframes profile {
   0% {
-    content: 'UX Designer'
+    content: 'UX UI Designer'
   }
 
-  50% {
+  66% {
     content: 'Frontend Developer'
   }
 
-  75% {
-    content: 'Product Designer'
-  }
-
   100% {
-    content: 'UI Designer'
+    content: 'Product Designer'
   }
 }
