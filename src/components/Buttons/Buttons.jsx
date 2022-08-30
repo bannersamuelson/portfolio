@@ -9,7 +9,7 @@ export default function Buttons() {
 
   return (
 
-    <nav className="z-10 bg-transparent dotstyle dotstyle-fillup hidden md:block p-5 fixed top-72 right-0">
+    <nav className="z-10 bg-transparent dotstyle dotstyle-fillup hidden md:block p-1 fixed top-72 right-0">
       <ul className="m-3">
         <HashLink to="/#home" className="hovertext" data-hover="Home">
           <li className="hover:outline-offset-4

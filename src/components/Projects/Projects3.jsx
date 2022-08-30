@@ -15,81 +15,55 @@ export default function Projects() {
       {/* first card */}
       <div class="w-wide h-tall py-8 rounded-lg p-8 bg-zinc-900">
         <div class="flex justify-between ml-6 pb-6">
-          <img src={folder} alt="folder icon" className=" space-between h-12 w-12" />
+          <img src={folder} alt="folder icon" className=" space-between h-11 w-11" />
           <section class="flex">
-            <img src={github} alt="github" className="mx-2 h-6 w-6" />
-            <img src={openArrow} alt="go to external site" className="mr-4 h-6 w-6" />
+            <img src={github} alt="github" className="mx-4 h-6 w-6" />
+            <img src={openArrow} alt="go to external site" className="h-6 w-6" />
           </section>
         </div>
-        <h2 class="text-xl pt-4 font-extrabold font-italic dark:text-white">
+        <h2 class="text-xl pt-8 font-extrabold font-italic dark:text-white">
           Life After General Assembly
         </h2>
-        <div class="py-4">
-          <div class="flex justify-between gap-1 mb-1">
-
-
-          </div>
-        </div>
-        <p class="dark:text-slate-200">
+        <p class="dark:text-slate-200 py-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
-
       {/* second card */}
-      <div class="w-96 h-96 py-8 rounded p-8 bg-red-500 border-2 border-yellow">
-        <div class="flex pb-6 flex-row-reverse  ">
-          <div class="h-8 w-8 flex mr-4">
-            <img src={github} alt="github" />
-            <img src={openArrow} alt="go to external site" className="mr-4" />
-          </div>
-          <div class="flex">
-            <div class="flex flex-col">
-
-            </div>
-          </div>
+      <div class="w-wide h-tall py-8 rounded-lg p-8 bg-zinc-900">
+        <div class="flex justify-between ml-6 pb-6">
+          <img src={folder} alt="folder icon" className=" space-between h-11 w-11" />
+          <section class="flex">
+            <img src={github} alt="github" className="mx-4 h-6 w-6" />
+            <img src={openArrow} alt="go to external site" className="h-6 w-6" />
+          </section>
         </div>
-        <h2 class="text-3xl font-extrabold font-italic dark:text-white">
+        <h2 class="text-xl pt-8 font-extrabold font-italic dark:text-white">
           Life After General Assembly
         </h2>
-        <div class="py-4">
-          <div class="flex justify-between gap-1 mb-1">
-
-
-          </div>
-        </div>
-        <p class="dark:text-slate-200">
+        <p class="dark:text-slate-200 py-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
-      {/* Third card */}
-      <div class="w-96 h-96 py-8 rounded p-8 bg-red-500 border-2 border-yellow">
-        <div class="flex pb-6 flex-row-reverse  ">
-          <div class="h-8 w-8 flex mr-4">
-            <img src={github} alt="github" />
-            <img src={openArrow} alt="go to external site" className="mr-4" />
-          </div>
-          <div class="flex">
-            <div class="flex flex-col">
-
-            </div>
-          </div>
+      {/* third card */}
+      <div class="w-wide h-tall py-8 rounded-lg p-8 bg-zinc-900">
+        <div class="flex justify-between ml-6 pb-6">
+          <img src={folder} alt="folder icon" className=" space-between h-11 w-11" />
+          <section class="flex">
+            <img src={github} alt="github" className="mx-4 h-6 w-6" />
+            <img src={openArrow} alt="go to external site" className="h-6 w-6" />
+          </section>
         </div>
-        <h2 class="text-3xl font-extrabold font-italic dark:text-white">
+        <h2 class="text-xl pt-8 font-extrabold font-italic dark:text-white">
           Life After General Assembly
         </h2>
-        <div class="py-4">
-          <div class="flex justify-between gap-1 mb-1">
-
-
-          </div>
-        </div>
-        <p class="dark:text-slate-200">
+        <p class="dark:text-slate-200 py-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
+
     </div>
 
   )
