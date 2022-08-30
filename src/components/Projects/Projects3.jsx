@@ -11,8 +11,10 @@ export default function Projects() {
       <span className="pb-14 pt-44 bg-inherit flex justify-center text-5xl text-zinc-600">PROJECTS</span>
 
 
-      <div class="px-pad 
-      xl:px-44 
+      <div class=" 
+      px-14
+      md:px-8
+      xl:px-24
       grid grid-cols-1 md:grid-cols-2
     xl:grid-cols-3
     p-4
