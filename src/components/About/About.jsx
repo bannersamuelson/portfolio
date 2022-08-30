@@ -4,7 +4,7 @@ import pdf from '../../resume/BANNERSAMUELSON.pdf'
 export default function About() {
   return (
     <div id="about" className="bg-cover  pt-7">
-      <span className="pb-24 pt-4 flex justify-center text-5xl text-yellow">About</span>
+      <span className="pb-24 pt-4 flex justify-center text-5xl text-zinc-600">About</span>
 
       <img className="flex mb-14 mx-auto justify-center rounded-full h-80" src={profile} alt=" banner samuelson profile" />
 
