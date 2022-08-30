@@ -45,7 +45,7 @@ export default function Projects() {
           <div class="flex justify-between ml-6 pb-6">
             <img src={folder} alt="folder icon" className=" space-between h-11 w-11" />
             <section class="flex">
-              <a href="https://github.com/bannersamuelson/Local-Store" target="_blank" rel="noferrer">
+              <a href="https://github.com/bannersamuelson/Local-Store" target="_blank" rel="noreferrer">
 
                 <img src={github} alt="github" className="mx-4 h-6 w-6" />
               </a>
