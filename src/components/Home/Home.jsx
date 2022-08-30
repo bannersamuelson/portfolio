@@ -5,7 +5,7 @@ import Nav from '../Nav/Nav'
 export default function Home() {
 
   return (
-    <div id="home" className="bg-gradient-to-r from-black to-zinc-900 bg-cover">
+    <div id="home" className="bg-gradient-to-r from-black to-grey bg-cover">
       <Nav />
       <div className="w-full px-24 pt-4 pb-44">
         <div className="grid grid-columns-3 justify-left pt-56">

@@ -7,12 +7,12 @@ import cevap from '../../images/cevap.png'
 export default function Projects() {
 
   return (
-    <div className="bg-black">
-      <div id="projects" className="bg-black">
-        <span className="pb-14 pt-14 flex justify-center text-5xl text-slate-500">PROJECTS</span>
+    <div className="bg-gradient-to-r from-black to-grey bg-cover ">
+      <div id="projects" className="bg-gradient-to-r from-black to-grey bg-cover">
+        <span className="pb-14 pt-14 flex justify-center text-5xl text-white">PROJECTS</span>
 
-        <div className="bg-black flex justify-center">
-          <div className="grid lg:grid-cols-2 m-auto p-4 text-slate-500">
+        <div className="bg-gradient-to-r from-black to-grey bg-cover flex justify-center">
+          <div className="grid lg:grid-cols-2 m-auto p-4 text-white">
 
 
             {/* laga project */}

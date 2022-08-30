@@ -3,12 +3,12 @@ import profile from '../../images/profile.png'
 import pdf from '../../resume/BANNERSAMUELSON.pdf'
 export default function About() {
   return (
-    <div id="about" className="bg-black pt-7">
-      <span className="pb-24 pt-4 flex justify-center text-5xl text-slate-500">About</span>
+    <div id="about" className="bg-cover  pt-7">
+      <span className="pb-24 pt-4 flex justify-center text-5xl text-white">About</span>
 
       <img className="flex mb-14 mx-auto justify-center rounded-full h-80" src={profile} alt=" banner samuelson profile" />
 
-      <p className="text-center mx-auto flex px-20 text-slate-300">
+      <p className="text-center mx-auto flex px-20 lg:px-96 text-slate-300">
         <br /> My speciality is Front-End design and layout implementations. Google Ceritication in UX UI, General Assembly Bootcamp graudate. Pursuing Bachelors in Computer Science.
       </p>
 
