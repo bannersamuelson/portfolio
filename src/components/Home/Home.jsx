@@ -15,7 +15,6 @@ export default function Home() {
 
         </div>
         <div className="pb-24 grid grid-columns-3 justify-left">
-          I am
           <h1 className="text-slate-50 text-3xl
            lg:text-6xl">
             I am
