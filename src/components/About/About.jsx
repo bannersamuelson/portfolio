@@ -9,7 +9,7 @@ export default function About() {
       <img className="flex mb-14 mx-auto justify-center rounded-full h-80" src={profile} alt=" banner samuelson profile" />
 
       <p className="text-center mx-auto flex px-20 lg:px-96 text-slate-300">
-        <br /> My speciality is Front-End design and layout implementations. Google Ceritication in UX UI, General Assembly Bootcamp graudate. Pursuing Bachelors in Computer Science.
+        <br /> My speciality is Front-End design and layout implementations. Google Ceritication in UX UI, General Assembly Bootcamp graudate. Pursuing Bachelors in Computer Science. I currently reside in Alexandira, VA with my beautiful family and our dog.
       </p>
 
 

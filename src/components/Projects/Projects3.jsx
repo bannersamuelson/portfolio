@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <div className="bg-gradient-to-r from-black to-grey">
 
-      <span className="pb-14 pt-44 bg-inherit flex justify-center text-5xl text-zinc-600">PROJECTS</span>
+      <span className="pb-14 pt-72 bg-inherit flex justify-center text-5xl text-zinc-600">PROJECTS</span>
 
 
       <div class=" 
@@ -24,7 +24,7 @@ justify-center
     justify-items-center gap-2.5" id="projects">
         {/* coming soon card */}
         <div class="w-wide h-tall py-8 rounded-lg p-8 bg-zinc-900">
-          <div class="flex justify-between ml-6 pb-6">
+          <div class="flex justify-between pb-6">
             <img src={folder} alt="folder icon" className=" space-between h-11 w-11" />
             <section class="flex">
 
@@ -39,15 +39,15 @@ justify-center
             Plumbing App
           </h2>
           <p class="dark:text-slate-200 py-4 text-md">
-            Coming soon - Application wireframe to help users schedule and track maintenace visits | complete with case study
+            Application wireframe to help users schedule and track maintenace visits | complete with case study
           </p>
           <p
-            className="text-slate-400 text-sm pb-6">Figma, Adobe XD
+            className="text-slate-400 text-sm pb-6">Coming soon . . .
           </p>
         </div>
         {/* first card */}
         <div class="w-wide h-tall py-8 rounded-lg p-8 bg-zinc-900">
-          <div class="flex justify-between ml-6 pb-6">
+          <div class="flex justify-between pb-6">
             <img src={folder} alt="folder icon" className=" space-between h-11 w-11" />
             <section class="flex">
               {/* github link */}
@@ -64,7 +64,7 @@ justify-center
             Life After General Assembly
           </h2>
           <p class="dark:text-slate-200 py-4 text-md">
-            Full stack application, that allows users to create, review, update and edit reviews and resource links for educational purposes.
+            Full stack application, that allows users to create resources for educational purposes.
           </p>
           <p
             className="text-slate-400 text-sm pb-6">Reactjs, MongoDB, Netlify, TailwindCSS, Heroku, HTML, CSS
@@ -72,7 +72,7 @@ justify-center
         </div>
         {/* second card */}
         <div class="w-wide h-tall py-8 rounded-lg p-8 bg-zinc-900">
-          <div class="flex justify-between ml-6 pb-6">
+          <div class="flex justify-between pb-6">
             <img src={folder} alt="folder icon" className=" space-between h-11 w-11" />
             <section class="flex">
               <a href="https://github.com/bannersamuelson/Local-Store" target="_blank" rel="noreferrer">
@@ -97,7 +97,7 @@ justify-center
         </div>
         {/* third card */}
         <div class="w-wide h-tall py-8 rounded-lg p-8 bg-zinc-900">
-          <div class="flex justify-between ml-6 pb-6">
+          <div class="flex justify-between pb-6">
             <img src={folder} alt="folder icon" className=" space-between h-11 w-11" />
             <section class="flex">
               <a href="https://github.com/bannersamuelson/Cevap-Game-Finder" target="_blank" rel="noreferrer">
