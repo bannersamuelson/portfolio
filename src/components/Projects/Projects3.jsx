@@ -3,12 +3,15 @@ import github from '../../images/github.png'
 import openArrow from '../../images/open_arrow.png'
 import folder from '../../images/folder.png'
 import figma from '../../images/figma.png'
+import { Link } from 'react-router-dom';
+
 
 export default function Projects() {
 
   return (
     <div className="bg-gradient-to-r from-black to-grey">
-
+      <Link className="text-white" to={'/plumbling'}>test
+      </Link>
       <span className="pb-14 pt-72 bg-inherit flex justify-center text-5xl text-zinc-600">PROJECTS</span>
 
 
@@ -27,9 +30,6 @@ justify-center
           <div class="flex justify-between pb-6">
             <img src={folder} alt="folder icon" className=" space-between h-11 w-11" />
             <section class="flex">
-
-
-
               <img src={figma} alt="github" className="mx-4 h-6 w-6" />
 
 
