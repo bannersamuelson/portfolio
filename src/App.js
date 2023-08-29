@@ -7,6 +7,9 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import './App.css'
 import Icons from "./components/Icons/Icons"
+import { Routes, Route } from "react-router-dom";
+import Plumbing from "./components/PlumbingApp/Plumbing.jsx";
+
 function App() {
 
   const [loading, setLoading] = useState(true);
@@ -22,17 +25,20 @@ function App() {
     <>
 
       <div>
-        <Home />
+        <Routes>
+          <Route path="/" element={<div>hello</div>} />
+          <Route path="/plumbing" element={<Plumbing />} />
+        </Routes>
+        {/* <Home />
         <Buttons />
-        <Projects />
-
         <Icons />
+        <Projects />
         <div className="grid grid-cols-1 bg-gradient-to-r from-black to-grey bg-cover">
           <About />
           <Contact />
         </div>
 
-        <Footer />
+        <Footer /> */}
       </div>
 
     </>
