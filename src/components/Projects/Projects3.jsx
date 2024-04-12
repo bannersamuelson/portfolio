@@ -36,7 +36,7 @@ justify-center
             </section>
           </div>
           <h2 class="text-xl pt-8 font-extrabold font-italic text-white">
-            Plumbing App
+            Plumbing Apps
           </h2>
           <p class="dark:text-slate-200 py-4 text-md">
             Application wireframe to help users schedule and track maintenace visits | complete with case study
