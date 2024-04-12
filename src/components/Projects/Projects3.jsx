@@ -35,7 +35,7 @@ justify-center
 
             </section>
           </div>
-          <h2 class="text-xl pt-8 font-extrabold font-italic dark:text-white">
+          <h2 class="text-xl pt-8 font-extrabold font-italic text-white">
             Plumbing App
           </h2>
           <p class="dark:text-slate-200 py-4 text-md">
