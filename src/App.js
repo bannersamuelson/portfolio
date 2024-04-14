@@ -6,8 +6,8 @@ import Buttons from './components/Buttons/Buttons';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Icons from "./components/Icons/Icons"
-import { Routes, Route } from "react-router-dom";
-import Plumbing from "./components/PlumbingApp/Plumbing.jsx";
+// import { Routes, Route } from "react-router-dom";
+// import Plumbing from "./components/PlumbingApp/Plumbing.jsx";
 
 function App() {
 

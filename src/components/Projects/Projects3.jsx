@@ -3,7 +3,7 @@ import github from '../../images/github.png'
 import openArrow from '../../images/open_arrow.png'
 import folder from '../../images/folder.png'
 import figma from '../../images/figma.png'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 export default function Projects() {
