@@ -10,9 +10,9 @@ export default function Projects() {
 
   return (
     <div className="bg-gradient-to-r from-black to-grey">
-      <Link className="text-white" to={'/plumbling'}>test
-      </Link>
-      <span className="pb-14 pt-72 bg-inherit flex justify-center text-5xl text-zinc-600">PROJECTS</span>
+      {/* <Link className="text-white" to={'/plumbling'}>test
+      </Link> */}
+      <span className="pb-14 pt-72 bg-inherit flex justify-center text-5xl text-white">PROJECTS</span>
 
 
       <div class=" 
@@ -36,7 +36,7 @@ justify-center
           <h2 class="text-xl pt-8 font-extrabold font-italic text-white">
             Plumbing Apps
           </h2>
-          <p class="dark:text-slate-200 py-4 text-md">
+          <p class="text-white py-4 text-md">
             Application wireframe to help users schedule and track maintenace visits | complete with case study
           </p>
           <p
@@ -58,10 +58,10 @@ justify-center
               </a>
             </section>
           </div>
-          <h2 class="text-xl pt-8 font-extrabold font-italic dark:text-white">
+          <h2 class="text-xl pt-8 font-extrabold font-italic text-white">
             Life After General Assembly
           </h2>
-          <p class="dark:text-slate-200 py-4 text-md">
+          <p class="text-white py-4 text-md">
             Full stack application, that allows users to create resources for educational purposes.
           </p>
           <p
@@ -84,9 +84,9 @@ justify-center
               </a>
             </section>
           </div>
-          <h2 class="text-xl pt-8 font-extrabold font-italic dark:text-white">
+          <h2 class="text-xl pt-8 font-extrabold font-italic text-white">
             Supporting Local </h2>
-          <p class="dark:text-slate-200 py-4">
+          <p class="text-white py-4">
             Full Stack that allows users to explore the local area with suggestions and information on the DMV.
           </p>
           <p
@@ -107,10 +107,10 @@ justify-center
               </a>
             </section>
           </div>
-          <h2 class="text-xl pt-8 font-extrabold font-italic dark:text-white">
+          <h2 class="text-xl pt-8 font-extrabold font-italic text-white">
             Cevap Game Finder
           </h2>
-          <p class="dark:text-slate-200 py-4">
+          <p class="text-white py-4">
             Front-End app that helps users find computer and video game information. Full game API used for all your gaming favorites.
           </p>
           <p
