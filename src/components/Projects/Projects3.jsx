@@ -31,8 +31,6 @@ justify-center
             <img src={folder} alt="folder icon" className=" space-between h-11 w-11" />
             <section class="flex">
               <img src={figma} alt="github" className="mx-4 h-6 w-6" />
-
-
             </section>
           </div>
           <h2 class="text-xl pt-8 font-extrabold font-italic text-white">
