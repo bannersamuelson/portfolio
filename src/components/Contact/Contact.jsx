@@ -14,7 +14,7 @@ export default function Contact() {
 
               <div className="rounded-2xl p-14 md:pt-4 mb-14 bg-black">
 
-                <h1 className="text-4xl sm:text-4xl text-white font-extrabold tracking-tight text-center">
+                <h1 className="text-4xl sm:text-4xl text-banner font-extrabold tracking-tight text-center">
                   Get in touch
                 </h1>
                 <div className="text-zinc-400 pt-8  text-center justify-center">

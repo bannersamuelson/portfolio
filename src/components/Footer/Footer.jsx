@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="w-full pt-9">
         <div className="flex w-full justify-center">
           {/* LinkedIn */}
-          <a className=" text-blen hover:text-white mx-4" target="_blank" href="https://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
+          <a className=" text-blen hover:text-banner mx-4" target="_blank" href="https://www.linkedin.com/in/banner-samuelson/" rel="noreferrer">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -24,7 +24,7 @@ export default function Footer() {
             </svg>
           </a>
           {/* instagram */}
-          <a href="https://www.instagram.com/itsbanner/" target="_blank" rel="noreferrer" className="text-blen hover:text-white mx-4">
+          <a href="https://www.instagram.com/itsbanner/" target="_blank" rel="noreferrer" className="text-blen hover:text-banner mx-4">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -42,7 +42,7 @@ export default function Footer() {
             </svg>
           </a>
           {/* facebook */}
-          <a href="https://www.facebook.com/banner.samuelson/" target="_blank" rel="noreferrer" className="text-blen hover:text-white mx-4">
+          <a href="https://www.facebook.com/banner.samuelson/" target="_blank" rel="noreferrer" className="text-blen hover:text-banner mx-4">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -60,7 +60,7 @@ export default function Footer() {
             </svg>
           </a>
           {/* Github */}
-          <a href="https://github.com/bannersamuelson/" target="_blank" rel="noreferrer" className="text-blen hover:text-white mx-4">
+          <a href="https://github.com/bannersamuelson/" target="_blank" rel="noreferrer" className="text-blen hover:text-banner mx-4">
             <svg
               aria-hidden="true"
               focusable="false"

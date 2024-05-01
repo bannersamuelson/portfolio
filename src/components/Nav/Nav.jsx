@@ -19,10 +19,10 @@ function Nav() {
           </div>
           <div className="px-4 py-1 pt-1 hidden md:block align-center">
             <div className="align-center items-center ml-10 text-lg text-slate-50 space-x-4 flex">
-              <HashLink to="/#home" className="text-white hover:text-yellow focus:text-slate-90 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink>
-              <HashLink to="/#projects" className="text-white hover:text-yellow m-1 px-2 py-1 rounded-md font-medium">Projects</HashLink>
-              <HashLink to="/#about" className="text-white hover:text-yellow m-1 px-2 py-1 rounded-md font-medium">About</HashLink>
-              <HashLink to="/#contact" className="text-white hover:text-yellow  m-1 px-2 py-1 rounded-md font-medium">Contact</HashLink>
+              {/* <HashLink to="/#home" className="text-black hover:text-banner focus:text-slate-90 m-1 px-2 py-1 rounded-md font-medium">Home</HashLink> */}
+              <HashLink to="/#projects" className="text-black hover:text-banner m-1 px-2 py-1 rounded-md font-medium">Projects</HashLink>
+              <HashLink to="/#about" className="text-black hover:text-banner m-1 px-2 py-1 rounded-md font-medium">About</HashLink>
+              <HashLink to="/#contact" className="text-black hover:text-banner  m-1 px-2 py-1 rounded-md font-medium">Contact</HashLink>
             </div>
           </div>
 
