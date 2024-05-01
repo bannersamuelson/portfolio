@@ -4,7 +4,7 @@ import github from '../../images/github.png'
 export default function Icons() {
   return (
     <div id="skills" className="bg-white bg-cover pb-44">
-      <span className="min-w-full pb-4 pt-24 flex justify-center text-5xl text-banner">TECH STACK</span>
+      <span className="min-w-full pb-4 pt-24 flex justify-center text-5xl text-banner">Tech Stack</span>
       <div className="flex items-center xl:px-72">
         <div className="justify-center min-w-full grid grid-cols-2 md:grid-cols-4 p-14">
 

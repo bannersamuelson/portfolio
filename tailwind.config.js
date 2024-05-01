@@ -23,12 +23,12 @@ module.exports = {
       },
       colors: {
         // Configure your color palette here
-        'blen': '#E8E8E8',
+        'blen': 'bg-gray-200',
         'reddy': '#2c0615',
         'banner': '#080517',
         'yellow': '#FFFF0A',
         'yellow2': '#F5F500',
-        'grey': '#101010'
+        'grey': '#030303',
       },
       backgroundImage: {
         'waves': "url('../src/images/waves.jpg')",

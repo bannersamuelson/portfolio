@@ -32,7 +32,7 @@ function App() {
         <Projects />
         <Buttons />
         <Icons />
-        <div className="grid grid-cols-1 bg-gradient-to-r from-black to-grey bg-cover">
+        <div className="grid grid-cols-1 bg-cover">
           <About />
           <Contact />
         </div>

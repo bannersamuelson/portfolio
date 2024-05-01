@@ -31,7 +31,7 @@ nav li:focus {
   opacity: 0;
   padding-right: 3rem;
   background-color: transparent;
-  color: #cbcbcb;
+  color: #000;
   text-align: center;
   transition: opacity 1s ease-in-out;
   position: absolute;
