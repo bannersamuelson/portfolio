@@ -93,14 +93,6 @@ function Nav() {
                   </div>
                 </div>
                 <HashLink
-                  to="/#home"
-                  className="text-black rounded-md hover:bg-neutral-100 hover:text-black block px-3 py-2 text-base font-medium"
-                  onClick={() => setIsOpen(!isOpen)}
-                >
-                  Home
-                </HashLink>
-
-                <HashLink
                   to="/#projects"
                   className="text-black rounded-md hover:bg-neutral-100 hover:text-black block px-3 py-2 text-base font-medium"
                   onClick={() => setIsOpen(!isOpen)}

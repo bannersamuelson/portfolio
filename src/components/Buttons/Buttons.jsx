@@ -11,9 +11,6 @@ export default function Buttons() {
 
     <nav className="z-10 bg-transparent dotstyle dotstyle-fillup hidden md:block p-1 fixed top-96 right-0">
       <ul className="m-3">
-        <HashLink to="/#home" className="hovertext" data-hover="Home">
-          <li className="hover:outline-offset-4
-          hover:shadow-2xl hover:shadow-slate-50 m-3 bg-slate-600 hover:bg-slate-500 margin-0 p-1 border-1"></li></HashLink>
         <HashLink to="/#projects" className="hovertext" data-hover="Projects">
           <li className=" m-3 bg-slate-600 hover:bg-slate-500 p-1 border-1"></li></HashLink>
         <HashLink to="/#about" className="hovertext" data-hover="About">
